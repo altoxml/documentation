@@ -1,3 +1,2 @@
-# ALTO
 
-## [Documentation] (https://github.com/altoxml/documentation/wiki)
+# [ALTO Documentation] (https://github.com/altoxml/documentation/wiki)
