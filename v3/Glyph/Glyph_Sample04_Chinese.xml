@@ -1,0 +1,41 @@
+、、、
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+    xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/v2/alto-2-0.xsd"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <Layout>
+        <Page ID="P1" PHYSICAL_IMG_NR="1" HEIGHT="1469" WIDTH="1003" PRINTED_IMG_NR="1" PC="0.867">
+            <PrintSpace ID="P1_PS00001" HPOS="86" VPOS="131" WIDTH="1500" HEIGHT="1131">
+                <TextBlock ID="P1_TB00001" HPOS="200" VPOS="200" WIDTH="1000" HEIGHT="50">
+                    <TextLine ID="P1_TL00001" HPOS="230" VPOS="216" WIDTH="987" HEIGHT="31">
+                        <String ID="P1_ST00001" CONTENT="Ælter" WC="0.99" HPOS="230" VPOS="223" WIDTH="50" HEIGHT="24">
+                            <!-- WHAT ABOUT Character confidence? To be removed? I think is useless in combination with Glyphs CC="02"  -->
+                            
+                            <Glyph ID="P1_ST00001_G01" CONTENT="義" HPOS="230" VPOS="223" WIDTH="14" HEIGHT="24" GC="0.7">
+                                <Shape>
+                                    <Polygon/>
+                                </Shape>
+                                <Variant VC="0.6">選</Variant>
+                            </Glyph>
+                            <Glyph ID="P1_ST00001_G02" CONTENT="禮" HPOS="244" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.8">
+                                <Variant VC="0.5">選</Variant>
+                                <Variant VC="0.1">i</Variant>
+                            </Glyph>
+                            <Glyph ID="P1_ST00001_G03" CONTENT="說" HPOS="253" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.9">
+                                <Variant VC="0.7">禮</Variant>
+                            </Glyph>
+                            <Glyph ID="P1_ST00001_G04" CONTENT="選" HPOS="262" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.7">
+                               <Variant VC="0.7">禮</Variant>
+                            </Glyph>
+                            <Glyph ID="P1_ST00001_G05" CONTENT="e" HPOS="271" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.8">
+                                <Variant VC="0.4">o</Variant>
+                                <Variant VC="0.1">a</Variant>
+                            </Glyph>
+                        </String>
+                    </TextLine>
+                </TextBlock>
+            </PrintSpace>
+        </Page>
+    </Layout>
+</alto>
