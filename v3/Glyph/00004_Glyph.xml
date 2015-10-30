@@ -1,0 +1,3592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/v2/alto-2-0.xsd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>mm10</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>../MASTER/00004.tiff</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCRPROCESSING_1">
+			<preProcessingStep>
+				<processingSoftware>
+					<softwareCreator>CCS Content Conversion Specialists GmbH, Germany</softwareCreator>
+					<softwareName>CCS docWorks</softwareName>
+					<softwareVersion>6.9-1.5</softwareVersion>
+				</processingSoftware>
+			</preProcessingStep>
+			<ocrProcessingStep>
+				<processingSoftware>
+					<softwareCreator>ABBYY (BIT Software), Russia</softwareCreator>
+					<softwareName>FineReader</softwareName>
+					<softwareVersion>11.0</softwareVersion>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="TXT_0" FONTSIZE="9" FONTFAMILY="Fraktur"/>
+		<TextStyle ID="TXT_1" FONTSIZE="8" FONTFAMILY="Fraktur"/>
+		<TextStyle ID="TXT_2" FONTSIZE="7" FONTFAMILY="Fraktur"/>
+		<ParagraphStyle ID="PAR_CENTER" ALIGN="Center"/>
+		<ParagraphStyle ID="PAR_LEFT" ALIGN="Left"/>
+	</Styles>
+	<Layout>
+		<Page ID="P4" PHYSICAL_IMG_NR="4" HEIGHT="1395" WIDTH="976" PRINTED_IMG_NR="84" PC="0.909">
+			<TopMargin ID="P4_TM00001" HPOS="0" VPOS="0" WIDTH="976" HEIGHT="169">
+				<TextBlock ID="P4_TB00001" HPOS="394" VPOS="146" WIDTH="150" HEIGHT="22" language="ger" STYLEREFS="TXT_0 PAR_CENTER">
+					<TextLine ID="P4_TL00001" HPOS="465" VPOS="168" WIDTH="79" HEIGHT="0">
+						<String ID="P4_ST00001" HPOS="465" VPOS="168" WIDTH="79" HEIGHT="0" CONTENT="84" WC="1.00" CC="00">
+							<Glyph ID="P4_ST00001_G000" CONTENT="8" VALID="s" HPOS="465" VPOS="168" WIDTH="39" HEIGHT="0" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00001_G001" CONTENT="4" VALID="s" HPOS="504" VPOS="168" WIDTH="39" HEIGHT="0" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+				</TextBlock>
+			</TopMargin>
+			<LeftMargin ID="P4_LM00001" HPOS="0" VPOS="169" WIDTH="126" HEIGHT="1022"/>
+			<RightMargin ID="P4_RM00001" HPOS="776" VPOS="169" WIDTH="200" HEIGHT="1022"/>
+			<BottomMargin ID="P4_BM00001" HPOS="0" VPOS="1191" WIDTH="976" HEIGHT="204"/>
+			<PrintSpace ID="P4_PS00001" HPOS="126" VPOS="169" WIDTH="650" HEIGHT="1022">
+				<TextBlock ID="P4_TB00002" HPOS="128" VPOS="223" WIDTH="648" HEIGHT="119" language="ger" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="P4_TL00002" HPOS="180" VPOS="223" WIDTH="596" HEIGHT="36">
+						<String ID="P4_ST00002" HPOS="180" VPOS="226" WIDTH="82" HEIGHT="33" CONTENT="Schon" WC="0.98" CC="30067">
+							<Glyph ID="P4_ST00002_G000" CONTENT="S" VALID="s" HPOS="180" VPOS="226" WIDTH="16" HEIGHT="33" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00002_G001" CONTENT="c" VALID="s" HPOS="196" VPOS="226" WIDTH="16" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00002_G002" CONTENT="h" VALID="s" HPOS="212" VPOS="226" WIDTH="16" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00002_G003" CONTENT="o" VALID="s" HPOS="228" VPOS="226" WIDTH="16" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00002_G004" CONTENT="n" VALID="s" HPOS="244" VPOS="226" WIDTH="16" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00001" HPOS="262" VPOS="259" WIDTH="19"/>
+						<String ID="P4_ST00003" HPOS="281" VPOS="224" WIDTH="28" HEIGHT="35" CONTENT="ist" WC="0.99" CC="300">
+							<Glyph ID="P4_ST00003_G000" CONTENT="i" VALID="s" HPOS="281" VPOS="224" WIDTH="9" HEIGHT="35" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00003_G001" CONTENT="s" VALID="s" HPOS="290" VPOS="224" WIDTH="9" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00003_G002" CONTENT="t" VALID="s" HPOS="299" VPOS="224" WIDTH="9" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00002" HPOS="309" VPOS="259" WIDTH="19"/>
+						<String ID="P4_ST00004" HPOS="328" VPOS="224" WIDTH="64" HEIGHT="33" CONTENT="Herr" WC="0.96" CC="6760">
+							<Glyph ID="P4_ST00004_G000" CONTENT="H" VALID="s" HPOS="328" VPOS="224" WIDTH="16" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00004_G001" CONTENT="e" VALID="s" HPOS="344" VPOS="224" WIDTH="16" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00004_G002" CONTENT="r" VALID="s" HPOS="360" VPOS="224" WIDTH="16" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00004_G003" CONTENT="r" VALID="s" HPOS="376" VPOS="224" WIDTH="16" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00003" HPOS="392" VPOS="259" WIDTH="20"/>
+						<String ID="P4_ST00005" HPOS="412" VPOS="223" WIDTH="157" HEIGHT="34" CONTENT="Siegfried" WC="0.98" CC="557000277">
+							<Glyph ID="P4_ST00005_G000" CONTENT="S" VALID="s" HPOS="412" VPOS="223" WIDTH="17" HEIGHT="34" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00005_G001" CONTENT="i" VALID="s" HPOS="429" VPOS="223" WIDTH="17" HEIGHT="34" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00005_G002" CONTENT="e" VALID="s" HPOS="446" VPOS="223" WIDTH="17" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00005_G003" CONTENT="g" VALID="s" HPOS="463" VPOS="223" WIDTH="17" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00005_G004" CONTENT="f" VALID="s" HPOS="480" VPOS="223" WIDTH="17" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00005_G005" CONTENT="r" VALID="s" HPOS="497" VPOS="223" WIDTH="17" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00005_G006" CONTENT="i" VALID="s" HPOS="514" VPOS="223" WIDTH="17" HEIGHT="34" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00005_G007" CONTENT="e" VALID="s" HPOS="531" VPOS="223" WIDTH="17" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00005_G008" CONTENT="d" VALID="s" HPOS="548" VPOS="223" WIDTH="17" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00004" HPOS="569" VPOS="259" WIDTH="21"/>
+						<String ID="P4_ST00006" HPOS="590" VPOS="223" WIDTH="186" HEIGHT="34" CONTENT="aufgesprungen," WC="0.99" CC="73777046366766">
+							<Glyph ID="P4_ST00006_G000" CONTENT="a" VALID="s" HPOS="590" VPOS="223" WIDTH="13" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00006_G001" CONTENT="u" VALID="s" HPOS="603" VPOS="223" WIDTH="13" HEIGHT="34" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00006_G002" CONTENT="f" VALID="s" HPOS="616" VPOS="223" WIDTH="13" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00006_G003" CONTENT="g" VALID="s" HPOS="629" VPOS="223" WIDTH="13" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00006_G004" CONTENT="e" VALID="s" HPOS="642" VPOS="223" WIDTH="13" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00006_G005" CONTENT="s" VALID="s" HPOS="655" VPOS="223" WIDTH="13" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00006_G006" CONTENT="p" VALID="s" HPOS="668" VPOS="223" WIDTH="13" HEIGHT="34" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00006_G007" CONTENT="r" VALID="s" HPOS="681" VPOS="223" WIDTH="13" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00006_G008" CONTENT="u" VALID="s" HPOS="694" VPOS="223" WIDTH="13" HEIGHT="34" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00006_G009" CONTENT="n" VALID="s" HPOS="707" VPOS="223" WIDTH="13" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00006_G010" CONTENT="g" VALID="s" HPOS="720" VPOS="223" WIDTH="13" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00006_G011" CONTENT="e" VALID="s" HPOS="733" VPOS="223" WIDTH="13" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00006_G012" CONTENT="n" VALID="s" HPOS="746" VPOS="223" WIDTH="13" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00006_G013" CONTENT="," VALID="s" HPOS="759" VPOS="223" WIDTH="13" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+					<TextLine ID="P4_TL00003" HPOS="128" VPOS="266" WIDTH="644" HEIGHT="35">
+						<String ID="P4_ST00007" HPOS="128" VPOS="269" WIDTH="78" HEIGHT="28" CONTENT="Dann" WC="0.96" CC="4772">
+							<Glyph ID="P4_ST00007_G000" CONTENT="D" VALID="s" HPOS="128" VPOS="269" WIDTH="19" HEIGHT="28" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00007_G001" CONTENT="a" VALID="s" HPOS="147" VPOS="269" WIDTH="19" HEIGHT="28" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00007_G002" CONTENT="n" VALID="s" HPOS="166" VPOS="269" WIDTH="19" HEIGHT="28" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00007_G003" CONTENT="n" VALID="s" HPOS="185" VPOS="269" WIDTH="19" HEIGHT="28" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00005" HPOS="206" VPOS="297" WIDTH="13"/>
+						<String ID="P4_ST00008" HPOS="219" VPOS="268" WIDTH="84" HEIGHT="33" CONTENT="spricht" WC="1.00" CC="0020001">
+							<Glyph ID="P4_ST00008_G000" CONTENT="s" VALID="s" HPOS="219" VPOS="268" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00008_G001" CONTENT="p" VALID="s" HPOS="231" VPOS="268" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00008_G002" CONTENT="r" VALID="s" HPOS="243" VPOS="268" WIDTH="12" HEIGHT="33" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00008_G003" CONTENT="i" VALID="s" HPOS="255" VPOS="268" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00008_G004" CONTENT="c" VALID="s" HPOS="267" VPOS="268" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00008_G005" CONTENT="h" VALID="s" HPOS="279" VPOS="268" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00008_G006" CONTENT="t" VALID="s" HPOS="291" VPOS="268" WIDTH="12" HEIGHT="33" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00006" HPOS="303" VPOS="301" WIDTH="14"/>
+						<String ID="P4_ST00009" HPOS="317" VPOS="273" WIDTH="24" HEIGHT="20" CONTENT="er" WC="0.64" CC="70">
+							<Glyph ID="P4_ST00009_G000" CONTENT="e" VALID="s" HPOS="317" VPOS="273" WIDTH="12" HEIGHT="20" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00009_G001" CONTENT="r" VALID="s" HPOS="329" VPOS="273" WIDTH="12" HEIGHT="20" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00007" HPOS="341" VPOS="301" WIDTH="15"/>
+						<String ID="P4_ST00010" HPOS="356" VPOS="266" WIDTH="74" HEIGHT="35" CONTENT="ernst:" WC="0.99" CC="004110">
+							<Glyph ID="P4_ST00010_G000" CONTENT="e" VALID="s" HPOS="356" VPOS="266" WIDTH="12" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00010_G001" CONTENT="r" VALID="s" HPOS="368" VPOS="266" WIDTH="12" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00010_G002" CONTENT="n" VALID="s" HPOS="380" VPOS="266" WIDTH="12" HEIGHT="35" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00010_G003" CONTENT="s" VALID="s" HPOS="392" VPOS="266" WIDTH="12" HEIGHT="35" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00010_G004" CONTENT="t" VALID="s" HPOS="404" VPOS="266" WIDTH="12" HEIGHT="35" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00010_G005" CONTENT=":" VALID="s" HPOS="416" VPOS="266" WIDTH="12" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00008" HPOS="430" VPOS="301" WIDTH="15"/>
+						<String ID="P4_ST00011" HPOS="445" VPOS="266" WIDTH="53" HEIGHT="32" CONTENT="„Es" WC="0.92" CC="878">
+							<Glyph ID="P4_ST00011_G000" CONTENT="„" VALID="s" HPOS="445" VPOS="266" WIDTH="17" HEIGHT="32" GC="0.8">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00011_G001" CONTENT="E" VALID="s" HPOS="462" VPOS="266" WIDTH="17" HEIGHT="32" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00011_G002" CONTENT="s" VALID="s" HPOS="479" VPOS="266" WIDTH="17" HEIGHT="32" GC="0.8">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00009" HPOS="498" VPOS="301" WIDTH="15"/>
+						<String ID="P4_ST00012" HPOS="513" VPOS="266" WIDTH="97" HEIGHT="34" CONTENT="frommt" WC="0.98" CC="602370">
+							<Glyph ID="P4_ST00012_G000" CONTENT="f" VALID="s" HPOS="513" VPOS="266" WIDTH="16" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00012_G001" CONTENT="r" VALID="s" HPOS="529" VPOS="266" WIDTH="16" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00012_G002" CONTENT="o" VALID="s" HPOS="545" VPOS="266" WIDTH="16" HEIGHT="34" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00012_G003" CONTENT="m" VALID="s" HPOS="561" VPOS="266" WIDTH="16" HEIGHT="34" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00012_G004" CONTENT="m" VALID="s" HPOS="577" VPOS="266" WIDTH="16" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00012_G005" CONTENT="t" VALID="s" HPOS="593" VPOS="266" WIDTH="16" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00010" HPOS="610" VPOS="301" WIDTH="13"/>
+						<String ID="P4_ST00013" HPOS="623" VPOS="269" WIDTH="49" HEIGHT="23" CONTENT="uns" WC="0.94" CC="068">
+							<Glyph ID="P4_ST00013_G000" CONTENT="u" VALID="s" HPOS="623" VPOS="269" WIDTH="16" HEIGHT="23" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00013_G001" CONTENT="n" VALID="s" HPOS="639" VPOS="269" WIDTH="16" HEIGHT="23" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00013_G002" CONTENT="s" VALID="s" HPOS="655" VPOS="269" WIDTH="16" HEIGHT="23" GC="0.8">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00011" HPOS="672" VPOS="301" WIDTH="13"/>
+						<String ID="P4_ST00014" HPOS="685" VPOS="266" WIDTH="87" HEIGHT="33" CONTENT="beiden," WC="0.97" CC="6774464">
+							<Glyph ID="P4_ST00014_G000" CONTENT="b" VALID="s" HPOS="685" VPOS="266" WIDTH="12" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00014_G001" CONTENT="e" VALID="s" HPOS="697" VPOS="266" WIDTH="12" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00014_G002" CONTENT="i" VALID="s" HPOS="709" VPOS="266" WIDTH="12" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00014_G003" CONTENT="d" VALID="s" HPOS="721" VPOS="266" WIDTH="12" HEIGHT="33" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00014_G004" CONTENT="e" VALID="s" HPOS="733" VPOS="266" WIDTH="12" HEIGHT="33" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00014_G005" CONTENT="n" VALID="s" HPOS="745" VPOS="266" WIDTH="12" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00014_G006" CONTENT="," VALID="s" HPOS="757" VPOS="266" WIDTH="12" HEIGHT="33" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+					<TextLine ID="P4_TL00004" HPOS="128" VPOS="309" WIDTH="511" HEIGHT="33">
+						<String ID="P4_ST00015" HPOS="128" VPOS="311" WIDTH="60" HEIGHT="31" CONTENT="Daß" WC="0.96" CC="027">
+							<Glyph ID="P4_ST00015_G000" CONTENT="D" VALID="s" HPOS="128" VPOS="311" WIDTH="20" HEIGHT="31" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00015_G001" CONTENT="a" VALID="s" HPOS="148" VPOS="311" WIDTH="20" HEIGHT="31" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00015_G002" CONTENT="ß" VALID="s" HPOS="168" VPOS="311" WIDTH="20" HEIGHT="31" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00012" HPOS="188" VPOS="342" WIDTH="18"/>
+						<String ID="P4_ST00016" HPOS="206" VPOS="310" WIDTH="45" HEIGHT="27" CONTENT="wir" WC="0.97" CC="060">
+							<Glyph ID="P4_ST00016_G000" CONTENT="w" VALID="s" HPOS="206" VPOS="310" WIDTH="15" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00016_G001" CONTENT="i" VALID="s" HPOS="221" VPOS="310" WIDTH="15" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00016_G002" CONTENT="r" VALID="s" HPOS="236" VPOS="310" WIDTH="15" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00013" HPOS="251" VPOS="342" WIDTH="20"/>
+						<String ID="P4_ST00017" HPOS="271" VPOS="310" WIDTH="40" HEIGHT="27" CONTENT="als" WC="0.94" CC="168">
+							<Glyph ID="P4_ST00017_G000" CONTENT="a" VALID="s" HPOS="271" VPOS="310" WIDTH="13" HEIGHT="27" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00017_G001" CONTENT="l" VALID="s" HPOS="284" VPOS="310" WIDTH="13" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00017_G002" CONTENT="s" VALID="s" HPOS="297" VPOS="310" WIDTH="13" HEIGHT="27" GC="0.8">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00014" HPOS="311" VPOS="342" WIDTH="20"/>
+						<String ID="P4_ST00018" HPOS="331" VPOS="309" WIDTH="56" HEIGHT="27" CONTENT="liebe" WC="0.97" CC="60737">
+							<Glyph ID="P4_ST00018_G000" CONTENT="l" VALID="s" HPOS="331" VPOS="309" WIDTH="11" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00018_G001" CONTENT="i" VALID="s" HPOS="342" VPOS="309" WIDTH="11" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00018_G002" CONTENT="e" VALID="s" HPOS="353" VPOS="309" WIDTH="11" HEIGHT="27" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00018_G003" CONTENT="b" VALID="s" HPOS="364" VPOS="309" WIDTH="11" HEIGHT="27" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00018_G004" CONTENT="e" VALID="s" HPOS="375" VPOS="309" WIDTH="11" HEIGHT="27" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00015" HPOS="387" VPOS="342" WIDTH="19"/>
+						<String ID="P4_ST00019" HPOS="406" VPOS="310" WIDTH="108" HEIGHT="32" CONTENT="Freunde" WC="0.99" CC="0103707">
+							<Glyph ID="P4_ST00019_G000" CONTENT="F" VALID="s" HPOS="406" VPOS="310" WIDTH="15" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00019_G001" CONTENT="r" VALID="s" HPOS="421" VPOS="310" WIDTH="15" HEIGHT="32" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00019_G002" CONTENT="e" VALID="s" HPOS="436" VPOS="310" WIDTH="15" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00019_G003" CONTENT="u" VALID="s" HPOS="451" VPOS="310" WIDTH="15" HEIGHT="32" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00019_G004" CONTENT="n" VALID="s" HPOS="466" VPOS="310" WIDTH="15" HEIGHT="32" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00019_G005" CONTENT="d" VALID="s" HPOS="481" VPOS="310" WIDTH="15" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00019_G006" CONTENT="e" VALID="s" HPOS="496" VPOS="310" WIDTH="15" HEIGHT="32" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00016" HPOS="514" VPOS="342" WIDTH="20"/>
+						<String ID="P4_ST00020" HPOS="534" VPOS="310" WIDTH="105" HEIGHT="32" CONTENT="scheiden." WC="0.99" CC="200600050">
+							<Glyph ID="P4_ST00020_G000" CONTENT="s" VALID="s" HPOS="534" VPOS="310" WIDTH="11" HEIGHT="32" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00020_G001" CONTENT="c" VALID="s" HPOS="545" VPOS="310" WIDTH="11" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00020_G002" CONTENT="h" VALID="s" HPOS="556" VPOS="310" WIDTH="11" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00020_G003" CONTENT="e" VALID="s" HPOS="567" VPOS="310" WIDTH="11" HEIGHT="32" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00020_G004" CONTENT="i" VALID="s" HPOS="578" VPOS="310" WIDTH="11" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00020_G005" CONTENT="d" VALID="s" HPOS="589" VPOS="310" WIDTH="11" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00020_G006" CONTENT="e" VALID="s" HPOS="600" VPOS="310" WIDTH="11" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00020_G007" CONTENT="n" VALID="s" HPOS="611" VPOS="310" WIDTH="11" HEIGHT="32" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00020_G008" CONTENT="." VALID="s" HPOS="622" VPOS="310" WIDTH="11" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="P4_TB00003" HPOS="126" VPOS="351" WIDTH="621" HEIGHT="209" language="ger" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="P4_TL00005" HPOS="127" VPOS="351" WIDTH="569" HEIGHT="35">
+						<String ID="P4_ST00021" HPOS="127" VPOS="354" WIDTH="56" HEIGHT="27" CONTENT="Der" WC="0.97" CC="060">
+							<Glyph ID="P4_ST00021_G000" CONTENT="D" VALID="s" HPOS="127" VPOS="354" WIDTH="18" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00021_G001" CONTENT="e" VALID="s" HPOS="145" VPOS="354" WIDTH="18" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00021_G002" CONTENT="r" VALID="s" HPOS="163" VPOS="354" WIDTH="18" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00017" HPOS="183" VPOS="381" WIDTH="19"/>
+						<String ID="P4_ST00022" HPOS="202" VPOS="353" WIDTH="85" HEIGHT="28" CONTENT="Boden" WC="0.97" CC="36065">
+							<Glyph ID="P4_ST00022_G000" CONTENT="B" VALID="s" HPOS="202" VPOS="353" WIDTH="17" HEIGHT="28" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00022_G001" CONTENT="o" VALID="s" HPOS="219" VPOS="353" WIDTH="17" HEIGHT="28" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00022_G002" CONTENT="d" VALID="s" HPOS="236" VPOS="353" WIDTH="17" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00022_G003" CONTENT="e" VALID="s" HPOS="253" VPOS="353" WIDTH="17" HEIGHT="28" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00022_G004" CONTENT="n" VALID="s" HPOS="270" VPOS="353" WIDTH="17" HEIGHT="28" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00018" HPOS="287" VPOS="381" WIDTH="20"/>
+						<String ID="P4_ST00023" HPOS="307" VPOS="352" WIDTH="85" HEIGHT="27" CONTENT="brennt" WC="0.99" CC="110500">
+							<Glyph ID="P4_ST00023_G000" CONTENT="b" VALID="s" HPOS="307" VPOS="352" WIDTH="14" HEIGHT="27" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00023_G001" CONTENT="r" VALID="s" HPOS="321" VPOS="352" WIDTH="14" HEIGHT="27" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00023_G002" CONTENT="e" VALID="s" HPOS="335" VPOS="352" WIDTH="14" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00023_G003" CONTENT="n" VALID="s" HPOS="349" VPOS="352" WIDTH="14" HEIGHT="27" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00023_G004" CONTENT="n" VALID="s" HPOS="363" VPOS="352" WIDTH="14" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00023_G005" CONTENT="t" VALID="s" HPOS="377" VPOS="352" WIDTH="14" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00019" HPOS="392" VPOS="381" WIDTH="18"/>
+						<String ID="P4_ST00024" HPOS="410" VPOS="352" WIDTH="48" HEIGHT="27" CONTENT="mir" WC="0.98" CC="004">
+							<Glyph ID="P4_ST00024_G000" CONTENT="m" VALID="s" HPOS="410" VPOS="352" WIDTH="16" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00024_G001" CONTENT="i" VALID="s" HPOS="426" VPOS="352" WIDTH="16" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00024_G002" CONTENT="r" VALID="s" HPOS="442" VPOS="352" WIDTH="16" HEIGHT="27" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00020" HPOS="458" VPOS="381" WIDTH="19"/>
+						<String ID="P4_ST00025" HPOS="477" VPOS="359" WIDTH="31" HEIGHT="20" CONTENT="an" WC="0.62" CC="42">
+							<Glyph ID="P4_ST00025_G000" CONTENT="a" VALID="s" HPOS="477" VPOS="359" WIDTH="15" HEIGHT="20" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00025_G001" CONTENT="n" VALID="s" HPOS="492" VPOS="359" WIDTH="15" HEIGHT="20" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00021" HPOS="508" VPOS="381" WIDTH="19"/>
+						<String ID="P4_ST00026" HPOS="527" VPOS="352" WIDTH="42" HEIGHT="27" CONTENT="den" WC="0.96" CC="073">
+							<Glyph ID="P4_ST00026_G000" CONTENT="d" VALID="s" HPOS="527" VPOS="352" WIDTH="14" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00026_G001" CONTENT="e" VALID="s" HPOS="541" VPOS="352" WIDTH="14" HEIGHT="27" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00026_G002" CONTENT="n" VALID="s" HPOS="555" VPOS="352" WIDTH="14" HEIGHT="27" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00022" HPOS="569" VPOS="381" WIDTH="22"/>
+						<String ID="P4_ST00027" HPOS="591" VPOS="351" WIDTH="105" HEIGHT="35" CONTENT="Sohlen." WC="0.98" CC="2536630">
+							<Glyph ID="P4_ST00027_G000" CONTENT="S" VALID="s" HPOS="591" VPOS="351" WIDTH="15" HEIGHT="35" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00027_G001" CONTENT="o" VALID="s" HPOS="606" VPOS="351" WIDTH="15" HEIGHT="35" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00027_G002" CONTENT="h" VALID="s" HPOS="621" VPOS="351" WIDTH="15" HEIGHT="35" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00027_G003" CONTENT="l" VALID="s" HPOS="636" VPOS="351" WIDTH="15" HEIGHT="35" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00027_G004" CONTENT="e" VALID="s" HPOS="651" VPOS="351" WIDTH="15" HEIGHT="35" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00027_G005" CONTENT="n" VALID="s" HPOS="666" VPOS="351" WIDTH="15" HEIGHT="35" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00027_G006" CONTENT="." VALID="s" HPOS="681" VPOS="351" WIDTH="15" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+					<TextLine ID="P4_TL00006" HPOS="127" VPOS="394" WIDTH="620" HEIGHT="36">
+						<String ID="P4_ST00028" HPOS="127" VPOS="397" WIDTH="51" HEIGHT="28" CONTENT="Leb'" WC="0.96" CC="6733">
+							<Glyph ID="P4_ST00028_G000" CONTENT="L" VALID="s" HPOS="127" VPOS="397" WIDTH="12" HEIGHT="28" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00028_G001" CONTENT="e" VALID="s" HPOS="139" VPOS="397" WIDTH="12" HEIGHT="28" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00028_G002" CONTENT="b" VALID="s" HPOS="151" VPOS="397" WIDTH="12" HEIGHT="28" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00028_G003" CONTENT="'" VALID="s" HPOS="163" VPOS="397" WIDTH="12" HEIGHT="28" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00023" HPOS="178" VPOS="425" WIDTH="15"/>
+						<String ID="P4_ST00029" HPOS="193" VPOS="396" WIDTH="72" HEIGHT="34" CONTENT="wohl," WC="0.97" CC="76024">
+							<Glyph ID="P4_ST00029_G000" CONTENT="w" VALID="s" HPOS="193" VPOS="396" WIDTH="14" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00029_G001" CONTENT="o" VALID="s" HPOS="207" VPOS="396" WIDTH="14" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00029_G002" CONTENT="h" VALID="s" HPOS="221" VPOS="396" WIDTH="14" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00029_G003" CONTENT="l" VALID="s" HPOS="235" VPOS="396" WIDTH="14" HEIGHT="34" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00029_G004" CONTENT="," VALID="s" HPOS="249" VPOS="396" WIDTH="14" HEIGHT="34" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00024" HPOS="265" VPOS="430" WIDTH="13"/>
+						<String ID="P4_ST00030" HPOS="278" VPOS="395" WIDTH="63" HEIGHT="27" CONTENT="mein" WC="0.97" CC="5603">
+							<Glyph ID="P4_ST00030_G000" CONTENT="m" VALID="s" HPOS="278" VPOS="395" WIDTH="15" HEIGHT="27" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00030_G001" CONTENT="e" VALID="s" HPOS="293" VPOS="395" WIDTH="15" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00030_G002" CONTENT="i" VALID="s" HPOS="308" VPOS="395" WIDTH="15" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00030_G003" CONTENT="n" VALID="s" HPOS="323" VPOS="395" WIDTH="15" HEIGHT="27" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00025" HPOS="341" VPOS="430" WIDTH="12"/>
+						<String ID="P4_ST00031" HPOS="353" VPOS="395" WIDTH="160" HEIGHT="35" CONTENT="Heinrich!" WC="0.99" CC="530704220">
+							<Glyph ID="P4_ST00031_G000" CONTENT="H" VALID="s" HPOS="353" VPOS="395" WIDTH="17" HEIGHT="35" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00031_G001" CONTENT="e" VALID="s" HPOS="370" VPOS="395" WIDTH="17" HEIGHT="35" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00031_G002" CONTENT="i" VALID="s" HPOS="387" VPOS="395" WIDTH="17" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00031_G003" CONTENT="n" VALID="s" HPOS="404" VPOS="395" WIDTH="17" HEIGHT="35" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00031_G004" CONTENT="r" VALID="s" HPOS="421" VPOS="395" WIDTH="17" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00031_G005" CONTENT="i" VALID="s" HPOS="438" VPOS="395" WIDTH="17" HEIGHT="35" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00031_G006" CONTENT="c" VALID="s" HPOS="455" VPOS="395" WIDTH="17" HEIGHT="35" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00031_G007" CONTENT="h" VALID="s" HPOS="472" VPOS="395" WIDTH="17" HEIGHT="35" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00031_G008" CONTENT="!" VALID="s" HPOS="489" VPOS="395" WIDTH="17" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00026" HPOS="513" VPOS="430" WIDTH="21"/>
+						<String ID="P4_ST00032" HPOS="534" VPOS="394" WIDTH="62" HEIGHT="29" CONTENT="Gott" WC="0.99" CC="0300">
+							<Glyph ID="P4_ST00032_G000" CONTENT="G" VALID="s" HPOS="534" VPOS="394" WIDTH="15" HEIGHT="29" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00032_G001" CONTENT="o" VALID="s" HPOS="549" VPOS="394" WIDTH="15" HEIGHT="29" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00032_G002" CONTENT="t" VALID="s" HPOS="564" VPOS="394" WIDTH="15" HEIGHT="29" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00032_G003" CONTENT="t" VALID="s" HPOS="579" VPOS="394" WIDTH="15" HEIGHT="29" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00027" HPOS="596" VPOS="430" WIDTH="14"/>
+						<String ID="P4_ST00033" HPOS="610" VPOS="395" WIDTH="137" HEIGHT="35" CONTENT='befohlen!"' WC="0.99" CC="1705030608">
+							<Glyph ID="P4_ST00033_G000" CONTENT="b" VALID="s" HPOS="610" VPOS="395" WIDTH="13" HEIGHT="35" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00033_G001" CONTENT="e" VALID="s" HPOS="623" VPOS="395" WIDTH="13" HEIGHT="35" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00033_G002" CONTENT="f" VALID="s" HPOS="636" VPOS="395" WIDTH="13" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00033_G003" CONTENT="o" VALID="s" HPOS="649" VPOS="395" WIDTH="13" HEIGHT="35" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00033_G004" CONTENT="h" VALID="s" HPOS="662" VPOS="395" WIDTH="13" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00033_G005" CONTENT="l" VALID="s" HPOS="675" VPOS="395" WIDTH="13" HEIGHT="35" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00033_G006" CONTENT="e" VALID="s" HPOS="688" VPOS="395" WIDTH="13" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00033_G007" CONTENT="n" VALID="s" HPOS="701" VPOS="395" WIDTH="13" HEIGHT="35" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00033_G008" CONTENT="!" VALID="s" HPOS="714" VPOS="395" WIDTH="13" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00033_G009" CONTENT='"' VALID="s" HPOS="727" VPOS="395" WIDTH="13" HEIGHT="35" GC="0.8">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+					<TextLine ID="P4_TL00007" HPOS="127" VPOS="438" WIDTH="610" HEIGHT="35">
+						<String ID="P4_ST00034" HPOS="127" VPOS="440" WIDTH="99" HEIGHT="33" CONTENT="Schnell" WC="0.98" CC="2005088">
+							<Glyph ID="P4_ST00034_G000" CONTENT="S" VALID="s" HPOS="127" VPOS="440" WIDTH="14" HEIGHT="33" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00034_G001" CONTENT="c" VALID="s" HPOS="141" VPOS="440" WIDTH="14" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00034_G002" CONTENT="h" VALID="s" HPOS="155" VPOS="440" WIDTH="14" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00034_G003" CONTENT="n" VALID="s" HPOS="169" VPOS="440" WIDTH="14" HEIGHT="33" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00034_G004" CONTENT="e" VALID="s" HPOS="183" VPOS="440" WIDTH="14" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00034_G005" CONTENT="l" VALID="s" HPOS="197" VPOS="440" WIDTH="14" HEIGHT="33" GC="0.8">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00034_G006" CONTENT="l" VALID="s" HPOS="211" VPOS="440" WIDTH="14" HEIGHT="33" GC="0.8">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00028" HPOS="226" VPOS="473" WIDTH="21"/>
+						<String ID="P4_ST00035" HPOS="247" VPOS="439" WIDTH="40" HEIGHT="33" CONTENT="hat" WC="0.98" CC="005">
+							<Glyph ID="P4_ST00035_G000" CONTENT="h" VALID="s" HPOS="247" VPOS="439" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00035_G001" CONTENT="a" VALID="s" HPOS="260" VPOS="439" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00035_G002" CONTENT="t" VALID="s" HPOS="273" VPOS="439" WIDTH="13" HEIGHT="33" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00029" HPOS="287" VPOS="473" WIDTH="19"/>
+						<String ID="P4_ST00036" HPOS="306" VPOS="445" WIDTH="24" HEIGHT="20" CONTENT="er" WC="0.63" CC="70">
+							<Glyph ID="P4_ST00036_G000" CONTENT="e" VALID="s" HPOS="306" VPOS="445" WIDTH="12" HEIGHT="20" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00036_G001" CONTENT="r" VALID="s" HPOS="318" VPOS="445" WIDTH="12" HEIGHT="20" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00030" HPOS="330" VPOS="473" WIDTH="19"/>
+						<String ID="P4_ST00037" HPOS="349" VPOS="439" WIDTH="40" HEIGHT="34" CONTENT="sich" WC="0.98" CC="5500">
+							<Glyph ID="P4_ST00037_G000" CONTENT="s" VALID="s" HPOS="349" VPOS="439" WIDTH="10" HEIGHT="34" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00037_G001" CONTENT="i" VALID="s" HPOS="359" VPOS="439" WIDTH="10" HEIGHT="34" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00037_G002" CONTENT="c" VALID="s" HPOS="369" VPOS="439" WIDTH="10" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00037_G003" CONTENT="h" VALID="s" HPOS="379" VPOS="439" WIDTH="10" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00031" HPOS="389" VPOS="473" WIDTH="20"/>
+						<String ID="P4_ST00038" HPOS="409" VPOS="439" WIDTH="64" HEIGHT="34" CONTENT="auf's" WC="0.98" CC="30520">
+							<Glyph ID="P4_ST00038_G000" CONTENT="a" VALID="s" HPOS="409" VPOS="439" WIDTH="12" HEIGHT="34" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00038_G001" CONTENT="u" VALID="s" HPOS="421" VPOS="439" WIDTH="12" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00038_G002" CONTENT="f" VALID="s" HPOS="433" VPOS="439" WIDTH="12" HEIGHT="34" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00038_G003" CONTENT="'" VALID="s" HPOS="445" VPOS="439" WIDTH="12" HEIGHT="34" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00038_G004" CONTENT="s" VALID="s" HPOS="457" VPOS="439" WIDTH="12" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00032" HPOS="473" VPOS="473" WIDTH="18"/>
+						<String ID="P4_ST00039" HPOS="491" VPOS="438" WIDTH="57" HEIGHT="34" CONTENT="Roß" WC="0.95" CC="336">
+							<Glyph ID="P4_ST00039_G000" CONTENT="R" VALID="s" HPOS="491" VPOS="438" WIDTH="19" HEIGHT="34" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00039_G001" CONTENT="o" VALID="s" HPOS="510" VPOS="438" WIDTH="19" HEIGHT="34" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00039_G002" CONTENT="ß" VALID="s" HPOS="529" VPOS="438" WIDTH="19" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00033" HPOS="548" VPOS="473" WIDTH="21"/>
+						<String ID="P4_ST00040" HPOS="569" VPOS="439" WIDTH="168" HEIGHT="34" CONTENT="geschwungen," WC="0.99" CC="070004464562">
+							<Glyph ID="P4_ST00040_G000" CONTENT="g" VALID="s" HPOS="569" VPOS="439" WIDTH="14" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00040_G001" CONTENT="e" VALID="s" HPOS="583" VPOS="439" WIDTH="14" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00040_G002" CONTENT="s" VALID="s" HPOS="597" VPOS="439" WIDTH="14" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00040_G003" CONTENT="c" VALID="s" HPOS="611" VPOS="439" WIDTH="14" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00040_G004" CONTENT="h" VALID="s" HPOS="625" VPOS="439" WIDTH="14" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00040_G005" CONTENT="w" VALID="s" HPOS="639" VPOS="439" WIDTH="14" HEIGHT="34" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00040_G006" CONTENT="u" VALID="s" HPOS="653" VPOS="439" WIDTH="14" HEIGHT="34" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00040_G007" CONTENT="n" VALID="s" HPOS="667" VPOS="439" WIDTH="14" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00040_G008" CONTENT="g" VALID="s" HPOS="681" VPOS="439" WIDTH="14" HEIGHT="34" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00040_G009" CONTENT="e" VALID="s" HPOS="695" VPOS="439" WIDTH="14" HEIGHT="34" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00040_G010" CONTENT="n" VALID="s" HPOS="709" VPOS="439" WIDTH="14" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00040_G011" CONTENT="," VALID="s" HPOS="723" VPOS="439" WIDTH="14" HEIGHT="34" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+					<TextLine ID="P4_TL00008" HPOS="126" VPOS="481" WIDTH="544" HEIGHT="36">
+						<String ID="P4_ST00041" HPOS="126" VPOS="484" WIDTH="60" HEIGHT="33" CONTENT="Fort" WC="0.98" CC="1430">
+							<Glyph ID="P4_ST00041_G000" CONTENT="F" VALID="s" HPOS="126" VPOS="484" WIDTH="15" HEIGHT="33" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00041_G001" CONTENT="o" VALID="s" HPOS="141" VPOS="484" WIDTH="15" HEIGHT="33" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00041_G002" CONTENT="r" VALID="s" HPOS="156" VPOS="484" WIDTH="15" HEIGHT="33" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00041_G003" CONTENT="t" VALID="s" HPOS="171" VPOS="484" WIDTH="15" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00034" HPOS="186" VPOS="517" WIDTH="19"/>
+						<String ID="P4_ST00042" HPOS="205" VPOS="481" WIDTH="80" HEIGHT="34" CONTENT="braust" WC="1.00" CC="000000">
+							<Glyph ID="P4_ST00042_G000" CONTENT="b" VALID="s" HPOS="205" VPOS="481" WIDTH="13" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00042_G001" CONTENT="r" VALID="s" HPOS="218" VPOS="481" WIDTH="13" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00042_G002" CONTENT="a" VALID="s" HPOS="231" VPOS="481" WIDTH="13" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00042_G003" CONTENT="u" VALID="s" HPOS="244" VPOS="481" WIDTH="13" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00042_G004" CONTENT="s" VALID="s" HPOS="257" VPOS="481" WIDTH="13" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00042_G005" CONTENT="t" VALID="s" HPOS="270" VPOS="481" WIDTH="13" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00035" HPOS="285" VPOS="517" WIDTH="19"/>
+						<String ID="P4_ST00043" HPOS="304" VPOS="489" WIDTH="31" HEIGHT="20" CONTENT="er." WC="0.96" CC="740">
+							<Glyph ID="P4_ST00043_G000" CONTENT="e" VALID="s" HPOS="304" VPOS="489" WIDTH="10" HEIGHT="20" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00043_G001" CONTENT="r" VALID="s" HPOS="314" VPOS="489" WIDTH="10" HEIGHT="20" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00043_G002" CONTENT="." VALID="s" HPOS="324" VPOS="489" WIDTH="10" HEIGHT="20" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00036" HPOS="335" VPOS="517" WIDTH="29"/>
+						<String ID="P4_ST00044" HPOS="364" VPOS="482" WIDTH="55" HEIGHT="28" CONTENT="Aus" WC="0.97" CC="340">
+							<Glyph ID="P4_ST00044_G000" CONTENT="A" VALID="s" HPOS="364" VPOS="482" WIDTH="18" HEIGHT="28" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00044_G001" CONTENT="u" VALID="s" HPOS="382" VPOS="482" WIDTH="18" HEIGHT="28" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00044_G002" CONTENT="s" VALID="s" HPOS="400" VPOS="482" WIDTH="18" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00037" HPOS="419" VPOS="517" WIDTH="21"/>
+						<String ID="P4_ST00045" HPOS="440" VPOS="483" WIDTH="39" HEIGHT="26" CONTENT="der" WC="1.00" CC="000">
+							<Glyph ID="P4_ST00045_G000" CONTENT="d" VALID="s" HPOS="440" VPOS="483" WIDTH="13" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00045_G001" CONTENT="e" VALID="s" HPOS="453" VPOS="483" WIDTH="13" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00045_G002" CONTENT="r" VALID="s" HPOS="466" VPOS="483" WIDTH="13" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00038" HPOS="479" VPOS="517" WIDTH="18"/>
+						<String ID="P4_ST00046" HPOS="497" VPOS="481" WIDTH="77" HEIGHT="32" CONTENT="Ferne" WC="0.97" CC="07046">
+							<Glyph ID="P4_ST00046_G000" CONTENT="F" VALID="s" HPOS="497" VPOS="481" WIDTH="15" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00046_G001" CONTENT="e" VALID="s" HPOS="512" VPOS="481" WIDTH="15" HEIGHT="32" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00046_G002" CONTENT="r" VALID="s" HPOS="527" VPOS="481" WIDTH="15" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00046_G003" CONTENT="n" VALID="s" HPOS="542" VPOS="481" WIDTH="15" HEIGHT="32" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00046_G004" CONTENT="e" VALID="s" HPOS="557" VPOS="481" WIDTH="15" HEIGHT="32" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00039" HPOS="574" VPOS="517" WIDTH="18"/>
+						<String ID="P4_ST00047" HPOS="592" VPOS="481" WIDTH="78" HEIGHT="35" CONTENT="schallt" WC="0.98" CC="0335885">
+							<Glyph ID="P4_ST00047_G000" CONTENT="s" VALID="s" HPOS="592" VPOS="481" WIDTH="11" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00047_G001" CONTENT="c" VALID="s" HPOS="603" VPOS="481" WIDTH="11" HEIGHT="35" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00047_G002" CONTENT="h" VALID="s" HPOS="614" VPOS="481" WIDTH="11" HEIGHT="35" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00047_G003" CONTENT="a" VALID="s" HPOS="625" VPOS="481" WIDTH="11" HEIGHT="35" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00047_G004" CONTENT="l" VALID="s" HPOS="636" VPOS="481" WIDTH="11" HEIGHT="35" GC="0.8">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00047_G005" CONTENT="l" VALID="s" HPOS="647" VPOS="481" WIDTH="11" HEIGHT="35" GC="0.8">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00047_G006" CONTENT="t" VALID="s" HPOS="658" VPOS="481" WIDTH="11" HEIGHT="35" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+					<TextLine ID="P4_TL00009" HPOS="126" VPOS="523" WIDTH="556" HEIGHT="37">
+						<String ID="P4_ST00048" HPOS="126" VPOS="525" WIDTH="54" HEIGHT="27" CONTENT="Der" WC="0.99" CC="003">
+							<Glyph ID="P4_ST00048_G000" CONTENT="D" VALID="s" HPOS="126" VPOS="525" WIDTH="18" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00048_G001" CONTENT="e" VALID="s" HPOS="144" VPOS="525" WIDTH="18" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00048_G002" CONTENT="r" VALID="s" HPOS="162" VPOS="525" WIDTH="18" HEIGHT="27" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00040" HPOS="180" VPOS="552" WIDTH="19"/>
+						<String ID="P4_ST00049" HPOS="199" VPOS="525" WIDTH="95" HEIGHT="34" CONTENT="dumpfe" WC="0.99" CC="064011">
+							<Glyph ID="P4_ST00049_G000" CONTENT="d" VALID="s" HPOS="199" VPOS="525" WIDTH="15" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00049_G001" CONTENT="u" VALID="s" HPOS="214" VPOS="525" WIDTH="15" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00049_G002" CONTENT="m" VALID="s" HPOS="229" VPOS="525" WIDTH="15" HEIGHT="34" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00049_G003" CONTENT="p" VALID="s" HPOS="244" VPOS="525" WIDTH="15" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00049_G004" CONTENT="f" VALID="s" HPOS="259" VPOS="525" WIDTH="15" HEIGHT="34" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00049_G005" CONTENT="e" VALID="s" HPOS="274" VPOS="525" WIDTH="15" HEIGHT="34" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00041" HPOS="294" VPOS="559" WIDTH="14"/>
+						<String ID="P4_ST00050" HPOS="308" VPOS="525" WIDTH="128" HEIGHT="35" CONTENT="Hufschlag" WC="0.99" CC="500422626">
+							<Glyph ID="P4_ST00050_G000" CONTENT="H" VALID="s" HPOS="308" VPOS="525" WIDTH="14" HEIGHT="35" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00050_G001" CONTENT="u" VALID="s" HPOS="322" VPOS="525" WIDTH="14" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00050_G002" CONTENT="f" VALID="s" HPOS="336" VPOS="525" WIDTH="14" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00050_G003" CONTENT="s" VALID="s" HPOS="350" VPOS="525" WIDTH="14" HEIGHT="35" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00050_G004" CONTENT="c" VALID="s" HPOS="364" VPOS="525" WIDTH="14" HEIGHT="35" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00050_G005" CONTENT="h" VALID="s" HPOS="378" VPOS="525" WIDTH="14" HEIGHT="35" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00050_G006" CONTENT="l" VALID="s" HPOS="392" VPOS="525" WIDTH="14" HEIGHT="35" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00050_G007" CONTENT="a" VALID="s" HPOS="406" VPOS="525" WIDTH="14" HEIGHT="35" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00050_G008" CONTENT="g" VALID="s" HPOS="420" VPOS="525" WIDTH="14" HEIGHT="35" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00042" HPOS="436" VPOS="560" WIDTH="18"/>
+						<String ID="P4_ST00051" HPOS="454" VPOS="523" WIDTH="67" HEIGHT="33" CONTENT="durch" WC="0.98" CC="20611">
+							<Glyph ID="P4_ST00051_G000" CONTENT="d" VALID="s" HPOS="454" VPOS="523" WIDTH="13" HEIGHT="33" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00051_G001" CONTENT="u" VALID="s" HPOS="467" VPOS="523" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00051_G002" CONTENT="r" VALID="s" HPOS="480" VPOS="523" WIDTH="13" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00051_G003" CONTENT="c" VALID="s" HPOS="493" VPOS="523" WIDTH="13" HEIGHT="33" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00051_G004" CONTENT="h" VALID="s" HPOS="506" VPOS="523" WIDTH="13" HEIGHT="33" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00043" HPOS="521" VPOS="560" WIDTH="21"/>
+						<String ID="P4_ST00052" HPOS="542" VPOS="525" WIDTH="43" HEIGHT="26" CONTENT="den" WC="0.98" CC="006">
+							<Glyph ID="P4_ST00052_G000" CONTENT="d" VALID="s" HPOS="542" VPOS="525" WIDTH="14" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00052_G001" CONTENT="e" VALID="s" HPOS="556" VPOS="525" WIDTH="14" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00052_G002" CONTENT="n" VALID="s" HPOS="570" VPOS="525" WIDTH="14" HEIGHT="26" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00044" HPOS="585" VPOS="560" WIDTH="17"/>
+						<String ID="P4_ST00053" HPOS="602" VPOS="523" WIDTH="80" HEIGHT="29" CONTENT="Wald." WC="1.00" CC="10000">
+							<Glyph ID="P4_ST00053_G000" CONTENT="W" VALID="s" HPOS="602" VPOS="523" WIDTH="16" HEIGHT="29" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00053_G001" CONTENT="a" VALID="s" HPOS="618" VPOS="523" WIDTH="16" HEIGHT="29" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00053_G002" CONTENT="l" VALID="s" HPOS="634" VPOS="523" WIDTH="16" HEIGHT="29" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00053_G003" CONTENT="d" VALID="s" HPOS="650" VPOS="523" WIDTH="16" HEIGHT="29" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00053_G004" CONTENT="." VALID="s" HPOS="666" VPOS="523" WIDTH="16" HEIGHT="29" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="P4_TB00004" HPOS="127" VPOS="610" WIDTH="627" HEIGHT="77" language="ger" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="P4_TL00010" HPOS="197" VPOS="611" WIDTH="557" HEIGHT="35">
+						<String ID="P4_ST00054" HPOS="197" VPOS="612" WIDTH="46" HEIGHT="28" CONTENT="Im" WC="0.51" CC="81">
+							<Glyph ID="P4_ST00054_G000" CONTENT="I" VALID="s" HPOS="197" VPOS="612" WIDTH="23" HEIGHT="28" GC="0.8">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00054_G001" CONTENT="m" VALID="s" HPOS="220" VPOS="612" WIDTH="23" HEIGHT="28" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00045" HPOS="243" VPOS="640" WIDTH="20"/>
+						<String ID="P4_ST00055" HPOS="263" VPOS="611" WIDTH="79" HEIGHT="35" CONTENT="Haine" WC="0.98" CC="04065">
+							<Glyph ID="P4_ST00055_G000" CONTENT="H" VALID="s" HPOS="263" VPOS="611" WIDTH="15" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00055_G001" CONTENT="a" VALID="s" HPOS="278" VPOS="611" WIDTH="15" HEIGHT="35" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00055_G002" CONTENT="i" VALID="s" HPOS="293" VPOS="611" WIDTH="15" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00055_G003" CONTENT="n" VALID="s" HPOS="308" VPOS="611" WIDTH="15" HEIGHT="35" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00055_G004" CONTENT="e" VALID="s" HPOS="323" VPOS="611" WIDTH="15" HEIGHT="35" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00046" HPOS="342" VPOS="646" WIDTH="20"/>
+						<String ID="P4_ST00056" HPOS="362" VPOS="611" WIDTH="113" HEIGHT="33" CONTENT="rauscht's" WC="0.83" CC="050000620">
+							<Glyph ID="P4_ST00056_G000" CONTENT="r" VALID="s" HPOS="362" VPOS="611" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00056_G001" CONTENT="a" VALID="s" HPOS="374" VPOS="611" WIDTH="12" HEIGHT="33" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00056_G002" CONTENT="u" VALID="s" HPOS="386" VPOS="611" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00056_G003" CONTENT="s" VALID="s" HPOS="398" VPOS="611" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00056_G004" CONTENT="c" VALID="s" HPOS="410" VPOS="611" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00056_G005" CONTENT="h" VALID="s" HPOS="422" VPOS="611" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00056_G006" CONTENT="t" VALID="s" HPOS="434" VPOS="611" WIDTH="12" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00056_G007" CONTENT="'" VALID="s" HPOS="446" VPOS="611" WIDTH="12" HEIGHT="33" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00056_G008" CONTENT="s" VALID="s" HPOS="458" VPOS="611" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00047" HPOS="475" VPOS="646" WIDTH="21"/>
+						<String ID="P4_ST00057" HPOS="496" VPOS="611" WIDTH="66" HEIGHT="32" CONTENT="durch" WC="0.99" CC="04000">
+							<Glyph ID="P4_ST00057_G000" CONTENT="d" VALID="s" HPOS="496" VPOS="611" WIDTH="13" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00057_G001" CONTENT="u" VALID="s" HPOS="509" VPOS="611" WIDTH="13" HEIGHT="32" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00057_G002" CONTENT="r" VALID="s" HPOS="522" VPOS="611" WIDTH="13" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00057_G003" CONTENT="c" VALID="s" HPOS="535" VPOS="611" WIDTH="13" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00057_G004" CONTENT="h" VALID="s" HPOS="548" VPOS="611" WIDTH="13" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00048" HPOS="562" VPOS="646" WIDTH="21"/>
+						<String ID="P4_ST00058" HPOS="583" VPOS="611" WIDTH="44" HEIGHT="27" CONTENT="alle" WC="0.97" CC="7007">
+							<Glyph ID="P4_ST00058_G000" CONTENT="a" VALID="s" HPOS="583" VPOS="611" WIDTH="11" HEIGHT="27" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00058_G001" CONTENT="l" VALID="s" HPOS="594" VPOS="611" WIDTH="11" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00058_G002" CONTENT="l" VALID="s" HPOS="605" VPOS="611" WIDTH="11" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00058_G003" CONTENT="e" VALID="s" HPOS="616" VPOS="611" WIDTH="11" HEIGHT="27" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00049" HPOS="627" VPOS="646" WIDTH="20"/>
+						<String ID="P4_ST00059" HPOS="647" VPOS="611" WIDTH="107" HEIGHT="27" CONTENT="Blätter." WC="0.99" CC="50467030">
+							<Glyph ID="P4_ST00059_G000" CONTENT="B" VALID="s" HPOS="647" VPOS="611" WIDTH="13" HEIGHT="27" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00059_G001" CONTENT="l" VALID="s" HPOS="660" VPOS="611" WIDTH="13" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00059_G002" CONTENT="ä" VALID="s" HPOS="673" VPOS="611" WIDTH="13" HEIGHT="27" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00059_G003" CONTENT="t" VALID="s" HPOS="686" VPOS="611" WIDTH="13" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00059_G004" CONTENT="t" VALID="s" HPOS="699" VPOS="611" WIDTH="13" HEIGHT="27" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00059_G005" CONTENT="e" VALID="s" HPOS="712" VPOS="611" WIDTH="13" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00059_G006" CONTENT="r" VALID="s" HPOS="725" VPOS="611" WIDTH="13" HEIGHT="27" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00059_G007" CONTENT="." VALID="s" HPOS="738" VPOS="611" WIDTH="13" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+					<TextLine ID="P4_TL00011" HPOS="127" VPOS="653" WIDTH="379" HEIGHT="34">
+						<String ID="P4_ST00060" HPOS="127" VPOS="655" WIDTH="36" HEIGHT="27" CONTENT="Es" WC="0.62" CC="70">
+							<Glyph ID="P4_ST00060_G000" CONTENT="E" VALID="s" HPOS="127" VPOS="655" WIDTH="18" HEIGHT="27" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00060_G001" CONTENT="s" VALID="s" HPOS="145" VPOS="655" WIDTH="18" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00050" HPOS="163" VPOS="682" WIDTH="20"/>
+						<String ID="P4_ST00061" HPOS="183" VPOS="655" WIDTH="77" HEIGHT="32" CONTENT="lagert" WC="0.98" CC="047005">
+							<Glyph ID="P4_ST00061_G000" CONTENT="l" VALID="s" HPOS="183" VPOS="655" WIDTH="12" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00061_G001" CONTENT="a" VALID="s" HPOS="195" VPOS="655" WIDTH="12" HEIGHT="32" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00061_G002" CONTENT="g" VALID="s" HPOS="207" VPOS="655" WIDTH="12" HEIGHT="32" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00061_G003" CONTENT="e" VALID="s" HPOS="219" VPOS="655" WIDTH="12" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00061_G004" CONTENT="r" VALID="s" HPOS="231" VPOS="655" WIDTH="12" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00061_G005" CONTENT="t" VALID="s" HPOS="243" VPOS="655" WIDTH="12" HEIGHT="32" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00051" HPOS="260" VPOS="687" WIDTH="21"/>
+						<String ID="P4_ST00062" HPOS="281" VPOS="655" WIDTH="48" HEIGHT="26" CONTENT="eine" WC="0.95" CC="7077">
+							<Glyph ID="P4_ST00062_G000" CONTENT="e" VALID="s" HPOS="281" VPOS="655" WIDTH="12" HEIGHT="26" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00062_G001" CONTENT="i" VALID="s" HPOS="293" VPOS="655" WIDTH="12" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00062_G002" CONTENT="n" VALID="s" HPOS="305" VPOS="655" WIDTH="12" HEIGHT="26" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00062_G003" CONTENT="e" VALID="s" HPOS="317" VPOS="655" WIDTH="12" HEIGHT="26" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00052" HPOS="329" VPOS="687" WIDTH="20"/>
+						<String ID="P4_ST00063" HPOS="349" VPOS="653" WIDTH="157" HEIGHT="28" CONTENT="Wolkcnbank" WC="0.55" CC="0670546077">
+							<Glyph ID="P4_ST00063_G000" CONTENT="W" VALID="s" HPOS="349" VPOS="653" WIDTH="15" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00063_G001" CONTENT="o" VALID="s" HPOS="364" VPOS="653" WIDTH="15" HEIGHT="28" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00063_G002" CONTENT="l" VALID="s" HPOS="379" VPOS="653" WIDTH="15" HEIGHT="28" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00063_G003" CONTENT="k" VALID="s" HPOS="394" VPOS="653" WIDTH="15" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00063_G004" CONTENT="c" VALID="s" HPOS="409" VPOS="653" WIDTH="15" HEIGHT="28" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00063_G005" CONTENT="n" VALID="s" HPOS="424" VPOS="653" WIDTH="15" HEIGHT="28" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00063_G006" CONTENT="b" VALID="s" HPOS="439" VPOS="653" WIDTH="15" HEIGHT="28" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00063_G007" CONTENT="a" VALID="s" HPOS="454" VPOS="653" WIDTH="15" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00063_G008" CONTENT="n" VALID="s" HPOS="469" VPOS="653" WIDTH="15" HEIGHT="28" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00063_G009" CONTENT="k" VALID="s" HPOS="484" VPOS="653" WIDTH="15" HEIGHT="28" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="P4_TB00005" HPOS="127" VPOS="695" WIDTH="417" HEIGHT="35" language="ger" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="P4_TL00012" HPOS="127" VPOS="695" WIDTH="417" HEIGHT="35">
+						<String ID="P4_ST00064" HPOS="127" VPOS="697" WIDTH="56" HEIGHT="28" CONTENT="Den" WC="0.96" CC="074">
+							<Glyph ID="P4_ST00064_G000" CONTENT="D" VALID="s" HPOS="127" VPOS="697" WIDTH="18" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00064_G001" CONTENT="e" VALID="s" HPOS="145" VPOS="697" WIDTH="18" HEIGHT="28" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00064_G002" CONTENT="n" VALID="s" HPOS="163" VPOS="697" WIDTH="18" HEIGHT="28" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00053" HPOS="183" VPOS="725" WIDTH="20"/>
+						<String ID="P4_ST00065" HPOS="203" VPOS="697" WIDTH="81" HEIGHT="33" CONTENT="fernen" WC="0.99" CC="001706">
+							<Glyph ID="P4_ST00065_G000" CONTENT="f" VALID="s" HPOS="203" VPOS="697" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00065_G001" CONTENT="e" VALID="s" HPOS="216" VPOS="697" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00065_G002" CONTENT="r" VALID="s" HPOS="229" VPOS="697" WIDTH="13" HEIGHT="33" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00065_G003" CONTENT="n" VALID="s" HPOS="242" VPOS="697" WIDTH="13" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00065_G004" CONTENT="e" VALID="s" HPOS="255" VPOS="697" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00065_G005" CONTENT="n" VALID="s" HPOS="268" VPOS="697" WIDTH="13" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00054" HPOS="284" VPOS="730" WIDTH="20"/>
+						<String ID="P4_ST00066" HPOS="304" VPOS="695" WIDTH="117" HEIGHT="35" CONTENT="Horizont" WC="0.98" CC="06005667">
+							<Glyph ID="P4_ST00066_G000" CONTENT="H" VALID="s" HPOS="304" VPOS="695" WIDTH="14" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00066_G001" CONTENT="o" VALID="s" HPOS="318" VPOS="695" WIDTH="14" HEIGHT="35" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00066_G002" CONTENT="r" VALID="s" HPOS="332" VPOS="695" WIDTH="14" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00066_G003" CONTENT="i" VALID="s" HPOS="346" VPOS="695" WIDTH="14" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00066_G004" CONTENT="z" VALID="s" HPOS="360" VPOS="695" WIDTH="14" HEIGHT="35" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00066_G005" CONTENT="o" VALID="s" HPOS="374" VPOS="695" WIDTH="14" HEIGHT="35" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00066_G006" CONTENT="n" VALID="s" HPOS="388" VPOS="695" WIDTH="14" HEIGHT="35" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00066_G007" CONTENT="t" VALID="s" HPOS="402" VPOS="695" WIDTH="14" HEIGHT="35" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00055" HPOS="421" VPOS="730" WIDTH="20"/>
+						<String ID="P4_ST00067" HPOS="441" VPOS="697" WIDTH="103" HEIGHT="33" CONTENT="entlang." WC="0.99" CC="76014110">
+							<Glyph ID="P4_ST00067_G000" CONTENT="e" VALID="s" HPOS="441" VPOS="697" WIDTH="12" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00067_G001" CONTENT="n" VALID="s" HPOS="453" VPOS="697" WIDTH="12" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00067_G002" CONTENT="t" VALID="s" HPOS="465" VPOS="697" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00067_G003" CONTENT="l" VALID="s" HPOS="477" VPOS="697" WIDTH="12" HEIGHT="33" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00067_G004" CONTENT="a" VALID="s" HPOS="489" VPOS="697" WIDTH="12" HEIGHT="33" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00067_G005" CONTENT="n" VALID="s" HPOS="501" VPOS="697" WIDTH="12" HEIGHT="33" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00067_G006" CONTENT="g" VALID="s" HPOS="513" VPOS="697" WIDTH="12" HEIGHT="33" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00067_G007" CONTENT="." VALID="s" HPOS="525" VPOS="697" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="P4_TB00006" HPOS="126" VPOS="738" WIDTH="598" HEIGHT="34" language="ger" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="P4_TL00013" HPOS="127" VPOS="738" WIDTH="597" HEIGHT="34">
+						<String ID="P4_ST00068" HPOS="127" VPOS="739" WIDTH="54" HEIGHT="27" CONTENT="Mit" WC="0.98" CC="006">
+							<Glyph ID="P4_ST00068_G000" CONTENT="M" VALID="s" HPOS="127" VPOS="739" WIDTH="18" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00068_G001" CONTENT="i" VALID="s" HPOS="145" VPOS="739" WIDTH="18" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00068_G002" CONTENT="t" VALID="s" HPOS="163" VPOS="739" WIDTH="18" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00056" HPOS="181" VPOS="766" WIDTH="19"/>
+						<String ID="P4_ST00069" HPOS="200" VPOS="741" WIDTH="111" HEIGHT="31" CONTENT="dumpfen" WC="0.99" CC="1050075">
+							<Glyph ID="P4_ST00069_G000" CONTENT="d" VALID="s" HPOS="200" VPOS="741" WIDTH="15" HEIGHT="31" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00069_G001" CONTENT="u" VALID="s" HPOS="215" VPOS="741" WIDTH="15" HEIGHT="31" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00069_G002" CONTENT="m" VALID="s" HPOS="230" VPOS="741" WIDTH="15" HEIGHT="31" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00069_G003" CONTENT="p" VALID="s" HPOS="245" VPOS="741" WIDTH="15" HEIGHT="31" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00069_G004" CONTENT="f" VALID="s" HPOS="260" VPOS="741" WIDTH="15" HEIGHT="31" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00069_G005" CONTENT="e" VALID="s" HPOS="275" VPOS="741" WIDTH="15" HEIGHT="31" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00069_G006" CONTENT="n" VALID="s" HPOS="290" VPOS="741" WIDTH="15" HEIGHT="31" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00057" HPOS="311" VPOS="772" WIDTH="20"/>
+						<String ID="P4_ST00070" HPOS="331" VPOS="738" WIDTH="120" HEIGHT="34" CONTENT="Schlägen" WC="1.00" CC="20000003">
+							<Glyph ID="P4_ST00070_G000" CONTENT="S" VALID="s" HPOS="331" VPOS="738" WIDTH="15" HEIGHT="34" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00070_G001" CONTENT="c" VALID="s" HPOS="346" VPOS="738" WIDTH="15" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00070_G002" CONTENT="h" VALID="s" HPOS="361" VPOS="738" WIDTH="15" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00070_G003" CONTENT="l" VALID="s" HPOS="376" VPOS="738" WIDTH="15" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00070_G004" CONTENT="ä" VALID="s" HPOS="391" VPOS="738" WIDTH="15" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00070_G005" CONTENT="g" VALID="s" HPOS="406" VPOS="738" WIDTH="15" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00070_G006" CONTENT="e" VALID="s" HPOS="421" VPOS="738" WIDTH="15" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00070_G007" CONTENT="n" VALID="s" HPOS="436" VPOS="738" WIDTH="15" HEIGHT="34" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00058" HPOS="451" VPOS="772" WIDTH="20"/>
+						<String ID="P4_ST00071" HPOS="471" VPOS="740" WIDTH="70" HEIGHT="32" CONTENT="grollt" WC="0.99" CC="006006">
+							<Glyph ID="P4_ST00071_G000" CONTENT="g" VALID="s" HPOS="471" VPOS="740" WIDTH="11" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00071_G001" CONTENT="r" VALID="s" HPOS="482" VPOS="740" WIDTH="11" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00071_G002" CONTENT="o" VALID="s" HPOS="493" VPOS="740" WIDTH="11" HEIGHT="32" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00071_G003" CONTENT="l" VALID="s" HPOS="504" VPOS="740" WIDTH="11" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00071_G004" CONTENT="l" VALID="s" HPOS="515" VPOS="740" WIDTH="11" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00071_G005" CONTENT="t" VALID="s" HPOS="526" VPOS="740" WIDTH="11" HEIGHT="32" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00059" HPOS="541" VPOS="772" WIDTH="20"/>
+						<String ID="P4_ST00072" HPOS="561" VPOS="739" WIDTH="44" HEIGHT="26" CONTENT="das" WC="0.98" CC="050">
+							<Glyph ID="P4_ST00072_G000" CONTENT="d" VALID="s" HPOS="561" VPOS="739" WIDTH="14" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00072_G001" CONTENT="a" VALID="s" HPOS="575" VPOS="739" WIDTH="14" HEIGHT="26" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00072_G002" CONTENT="s" VALID="s" HPOS="589" VPOS="739" WIDTH="14" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00060" HPOS="605" VPOS="772" WIDTH="19"/>
+						<String ID="P4_ST00073" HPOS="624" VPOS="739" WIDTH="100" HEIGHT="27" CONTENT="Wetter." WC="0.99" CC="0602740">
+							<Glyph ID="P4_ST00073_G000" CONTENT="W" VALID="s" HPOS="624" VPOS="739" WIDTH="14" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00073_G001" CONTENT="e" VALID="s" HPOS="638" VPOS="739" WIDTH="14" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00073_G002" CONTENT="t" VALID="s" HPOS="652" VPOS="739" WIDTH="14" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00073_G003" CONTENT="t" VALID="s" HPOS="666" VPOS="739" WIDTH="14" HEIGHT="27" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00073_G004" CONTENT="e" VALID="s" HPOS="680" VPOS="739" WIDTH="14" HEIGHT="27" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00073_G005" CONTENT="r" VALID="s" HPOS="694" VPOS="739" WIDTH="14" HEIGHT="27" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00073_G006" CONTENT="." VALID="s" HPOS="708" VPOS="739" WIDTH="14" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="P4_TB00007" HPOS="126" VPOS="781" WIDTH="621" HEIGHT="121" language="ger" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="P4_TL00014" HPOS="197" VPOS="781" WIDTH="535" HEIGHT="36">
+						<String ID="P4_ST00074" HPOS="197" VPOS="782" WIDTH="64" HEIGHT="35" CONTENT="Herr" WC="0.97" CC="1603">
+							<Glyph ID="P4_ST00074_G000" CONTENT="H" VALID="s" HPOS="197" VPOS="782" WIDTH="16" HEIGHT="35" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00074_G001" CONTENT="e" VALID="s" HPOS="213" VPOS="782" WIDTH="16" HEIGHT="35" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00074_G002" CONTENT="r" VALID="s" HPOS="229" VPOS="782" WIDTH="16" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00074_G003" CONTENT="r" VALID="s" HPOS="245" VPOS="782" WIDTH="16" HEIGHT="35" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00061" HPOS="261" VPOS="817" WIDTH="19"/>
+						<String ID="P4_ST00075" HPOS="280" VPOS="781" WIDTH="136" HEIGHT="36" CONTENT="Heinrich" WC="0.99" CC="07022044">
+							<Glyph ID="P4_ST00075_G000" CONTENT="H" VALID="s" HPOS="280" VPOS="781" WIDTH="17" HEIGHT="36" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00075_G001" CONTENT="e" VALID="s" HPOS="297" VPOS="781" WIDTH="17" HEIGHT="36" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00075_G002" CONTENT="i" VALID="s" HPOS="314" VPOS="781" WIDTH="17" HEIGHT="36" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00075_G003" CONTENT="n" VALID="s" HPOS="331" VPOS="781" WIDTH="17" HEIGHT="36" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00075_G004" CONTENT="r" VALID="s" HPOS="348" VPOS="781" WIDTH="17" HEIGHT="36" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00075_G005" CONTENT="i" VALID="s" HPOS="365" VPOS="781" WIDTH="17" HEIGHT="36" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00075_G006" CONTENT="c" VALID="s" HPOS="382" VPOS="781" WIDTH="17" HEIGHT="36" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00075_G007" CONTENT="h" VALID="s" HPOS="399" VPOS="781" WIDTH="17" HEIGHT="36" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00062" HPOS="416" VPOS="817" WIDTH="20"/>
+						<String ID="P4_ST00076" HPOS="436" VPOS="782" WIDTH="81" HEIGHT="34" CONTENT="finster" WC="0.99" CC="0070070">
+							<Glyph ID="P4_ST00076_G000" CONTENT="f" VALID="s" HPOS="436" VPOS="782" WIDTH="11" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00076_G001" CONTENT="i" VALID="s" HPOS="447" VPOS="782" WIDTH="11" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00076_G002" CONTENT="n" VALID="s" HPOS="458" VPOS="782" WIDTH="11" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00076_G003" CONTENT="s" VALID="s" HPOS="469" VPOS="782" WIDTH="11" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00076_G004" CONTENT="t" VALID="s" HPOS="480" VPOS="782" WIDTH="11" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00076_G005" CONTENT="e" VALID="s" HPOS="491" VPOS="782" WIDTH="11" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00076_G006" CONTENT="r" VALID="s" HPOS="502" VPOS="782" WIDTH="11" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00063" HPOS="517" VPOS="817" WIDTH="19"/>
+						<String ID="P4_ST00077" HPOS="536" VPOS="782" WIDTH="65" HEIGHT="33" CONTENT="steigt" WC="0.99" CC="007004">
+							<Glyph ID="P4_ST00077_G000" CONTENT="s" VALID="s" HPOS="536" VPOS="782" WIDTH="10" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00077_G001" CONTENT="t" VALID="s" HPOS="546" VPOS="782" WIDTH="10" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00077_G002" CONTENT="e" VALID="s" HPOS="556" VPOS="782" WIDTH="10" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00077_G003" CONTENT="i" VALID="s" HPOS="566" VPOS="782" WIDTH="10" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00077_G004" CONTENT="g" VALID="s" HPOS="576" VPOS="782" WIDTH="10" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00077_G005" CONTENT="t" VALID="s" HPOS="586" VPOS="782" WIDTH="10" HEIGHT="33" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00064" HPOS="601" VPOS="817" WIDTH="19"/>
+						<String ID="P4_ST00078" HPOS="620" VPOS="790" WIDTH="26" HEIGHT="25" CONTENT="zu" WC="0.70" CC="41">
+							<Glyph ID="P4_ST00078_G000" CONTENT="z" VALID="s" HPOS="620" VPOS="790" WIDTH="13" HEIGHT="25" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00078_G001" CONTENT="u" VALID="s" HPOS="633" VPOS="790" WIDTH="13" HEIGHT="25" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00065" HPOS="646" VPOS="817" WIDTH="21"/>
+						<String ID="P4_ST00079" HPOS="667" VPOS="782" WIDTH="65" HEIGHT="33" CONTENT="Roß," WC="0.96" CC="6264">
+							<Glyph ID="P4_ST00079_G000" CONTENT="R" VALID="s" HPOS="667" VPOS="782" WIDTH="16" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00079_G001" CONTENT="o" VALID="s" HPOS="683" VPOS="782" WIDTH="16" HEIGHT="33" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00079_G002" CONTENT="ß" VALID="s" HPOS="699" VPOS="782" WIDTH="16" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00079_G003" CONTENT="," VALID="s" HPOS="715" VPOS="782" WIDTH="16" HEIGHT="33" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+					<TextLine ID="P4_TL00015" HPOS="126" VPOS="824" WIDTH="621" HEIGHT="36">
+						<String ID="P4_ST00080" HPOS="126" VPOS="826" WIDTH="82" HEIGHT="27" CONTENT="Winkt" WC="0.97" CC="00766">
+							<Glyph ID="P4_ST00080_G000" CONTENT="W" VALID="s" HPOS="126" VPOS="826" WIDTH="16" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00080_G001" CONTENT="i" VALID="s" HPOS="142" VPOS="826" WIDTH="16" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00080_G002" CONTENT="n" VALID="s" HPOS="158" VPOS="826" WIDTH="16" HEIGHT="27" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00080_G003" CONTENT="k" VALID="s" HPOS="174" VPOS="826" WIDTH="16" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00080_G004" CONTENT="t" VALID="s" HPOS="190" VPOS="826" WIDTH="16" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00066" HPOS="208" VPOS="853" WIDTH="18"/>
+						<String ID="P4_ST00081" HPOS="226" VPOS="826" WIDTH="138" HEIGHT="33" CONTENT="schweigend" WC="0.99" CC="0000651670">
+							<Glyph ID="P4_ST00081_G000" CONTENT="s" VALID="s" HPOS="226" VPOS="826" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00081_G001" CONTENT="c" VALID="s" HPOS="239" VPOS="826" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00081_G002" CONTENT="h" VALID="s" HPOS="252" VPOS="826" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00081_G003" CONTENT="w" VALID="s" HPOS="265" VPOS="826" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00081_G004" CONTENT="e" VALID="s" HPOS="278" VPOS="826" WIDTH="13" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00081_G005" CONTENT="i" VALID="s" HPOS="291" VPOS="826" WIDTH="13" HEIGHT="33" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00081_G006" CONTENT="g" VALID="s" HPOS="304" VPOS="826" WIDTH="13" HEIGHT="33" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00081_G007" CONTENT="e" VALID="s" HPOS="317" VPOS="826" WIDTH="13" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00081_G008" CONTENT="n" VALID="s" HPOS="330" VPOS="826" WIDTH="13" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00081_G009" CONTENT="d" VALID="s" HPOS="343" VPOS="826" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00067" HPOS="364" VPOS="859" WIDTH="18"/>
+						<String ID="P4_ST00082" HPOS="382" VPOS="824" WIDTH="45" HEIGHT="26" CONTENT="mit" WC="0.96" CC="730">
+							<Glyph ID="P4_ST00082_G000" CONTENT="m" VALID="s" HPOS="382" VPOS="824" WIDTH="15" HEIGHT="26" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00082_G001" CONTENT="i" VALID="s" HPOS="397" VPOS="824" WIDTH="15" HEIGHT="26" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00082_G002" CONTENT="t" VALID="s" HPOS="412" VPOS="824" WIDTH="15" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00068" HPOS="427" VPOS="859" WIDTH="19"/>
+						<String ID="P4_ST00083" HPOS="446" VPOS="826" WIDTH="40" HEIGHT="26" CONTENT="der" WC="1.00" CC="000">
+							<Glyph ID="P4_ST00083_G000" CONTENT="d" VALID="s" HPOS="446" VPOS="826" WIDTH="13" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00083_G001" CONTENT="e" VALID="s" HPOS="459" VPOS="826" WIDTH="13" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00083_G002" CONTENT="r" VALID="s" HPOS="472" VPOS="826" WIDTH="13" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00069" HPOS="486" VPOS="859" WIDTH="19"/>
+						<String ID="P4_ST00084" HPOS="505" VPOS="825" WIDTH="71" HEIGHT="35" CONTENT="Hand" WC="1.00" CC="0100">
+							<Glyph ID="P4_ST00084_G000" CONTENT="H" VALID="s" HPOS="505" VPOS="825" WIDTH="17" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00084_G001" CONTENT="a" VALID="s" HPOS="522" VPOS="825" WIDTH="17" HEIGHT="35" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00084_G002" CONTENT="n" VALID="s" HPOS="539" VPOS="825" WIDTH="17" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00084_G003" CONTENT="d" VALID="s" HPOS="556" VPOS="825" WIDTH="17" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00070" HPOS="576" VPOS="860" WIDTH="20"/>
+						<String ID="P4_ST00085" HPOS="596" VPOS="826" WIDTH="50" HEIGHT="26" CONTENT="dem" WC="0.98" CC="104">
+							<Glyph ID="P4_ST00085_G000" CONTENT="d" VALID="s" HPOS="596" VPOS="826" WIDTH="16" HEIGHT="26" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00085_G001" CONTENT="e" VALID="s" HPOS="612" VPOS="826" WIDTH="16" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00085_G002" CONTENT="m" VALID="s" HPOS="628" VPOS="826" WIDTH="16" HEIGHT="26" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00071" HPOS="646" VPOS="860" WIDTH="20"/>
+						<String ID="P4_ST00086" HPOS="666" VPOS="825" WIDTH="81" HEIGHT="34" CONTENT="Troß;" WC="0.98" CC="00446">
+							<Glyph ID="P4_ST00086_G000" CONTENT="T" VALID="s" HPOS="666" VPOS="825" WIDTH="16" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00086_G001" CONTENT="r" VALID="s" HPOS="682" VPOS="825" WIDTH="16" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00086_G002" CONTENT="o" VALID="s" HPOS="698" VPOS="825" WIDTH="16" HEIGHT="34" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00086_G003" CONTENT="ß" VALID="s" HPOS="714" VPOS="825" WIDTH="16" HEIGHT="34" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00086_G004" CONTENT=";" VALID="s" HPOS="730" VPOS="825" WIDTH="16" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+					<TextLine ID="P4_TL00016" HPOS="127" VPOS="868" WIDTH="386" HEIGHT="34">
+						<String ID="P4_ST00087" HPOS="127" VPOS="868" WIDTH="50" HEIGHT="27" CONTENT="Sic" WC="0.97" CC="006">
+							<Glyph ID="P4_ST00087_G000" CONTENT="S" VALID="s" HPOS="127" VPOS="868" WIDTH="16" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00087_G001" CONTENT="i" VALID="s" HPOS="143" VPOS="868" WIDTH="16" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00087_G002" CONTENT="c" VALID="s" HPOS="159" VPOS="868" WIDTH="16" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00072" HPOS="177" VPOS="895" WIDTH="20"/>
+						<String ID="P4_ST00088" HPOS="197" VPOS="870" WIDTH="65" HEIGHT="32" CONTENT="sitzen" WC="0.99" CC="230000">
+							<Glyph ID="P4_ST00088_G000" CONTENT="s" VALID="s" HPOS="197" VPOS="870" WIDTH="10" HEIGHT="32" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00088_G001" CONTENT="i" VALID="s" HPOS="207" VPOS="870" WIDTH="10" HEIGHT="32" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00088_G002" CONTENT="t" VALID="s" HPOS="217" VPOS="870" WIDTH="10" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00088_G003" CONTENT="z" VALID="s" HPOS="227" VPOS="870" WIDTH="10" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00088_G004" CONTENT="e" VALID="s" HPOS="237" VPOS="870" WIDTH="10" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00088_G005" CONTENT="n" VALID="s" HPOS="247" VPOS="870" WIDTH="10" HEIGHT="32" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00073" HPOS="262" VPOS="902" WIDTH="20"/>
+						<String ID="P4_ST00089" HPOS="282" VPOS="869" WIDTH="42" HEIGHT="33" CONTENT="auf" WC="0.95" CC="335">
+							<Glyph ID="P4_ST00089_G000" CONTENT="a" VALID="s" HPOS="282" VPOS="869" WIDTH="14" HEIGHT="33" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00089_G001" CONTENT="u" VALID="s" HPOS="296" VPOS="869" WIDTH="14" HEIGHT="33" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00089_G002" CONTENT="f" VALID="s" HPOS="310" VPOS="869" WIDTH="14" HEIGHT="33" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00074" HPOS="324" VPOS="902" WIDTH="18"/>
+						<String ID="P4_ST00090" HPOS="342" VPOS="868" WIDTH="46" HEIGHT="27" CONTENT="und" WC="0.95" CC="660">
+							<Glyph ID="P4_ST00090_G000" CONTENT="u" VALID="s" HPOS="342" VPOS="868" WIDTH="15" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00090_G001" CONTENT="n" VALID="s" HPOS="357" VPOS="868" WIDTH="15" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00090_G002" CONTENT="d" VALID="s" HPOS="372" VPOS="868" WIDTH="15" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00075" HPOS="388" VPOS="902" WIDTH="20"/>
+						<String ID="P4_ST00091" HPOS="408" VPOS="868" WIDTH="105" HEIGHT="33" CONTENT="alsobald" WC="0.60" CC="26455060">
+							<Glyph ID="P4_ST00091_G000" CONTENT="a" VALID="s" HPOS="408" VPOS="868" WIDTH="13" HEIGHT="33" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00091_G001" CONTENT="l" VALID="s" HPOS="421" VPOS="868" WIDTH="13" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00091_G002" CONTENT="s" VALID="s" HPOS="434" VPOS="868" WIDTH="13" HEIGHT="33" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00091_G003" CONTENT="o" VALID="s" HPOS="447" VPOS="868" WIDTH="13" HEIGHT="33" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00091_G004" CONTENT="b" VALID="s" HPOS="460" VPOS="868" WIDTH="13" HEIGHT="33" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00091_G005" CONTENT="a" VALID="s" HPOS="473" VPOS="868" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00091_G006" CONTENT="l" VALID="s" HPOS="486" VPOS="868" WIDTH="13" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00091_G007" CONTENT="d" VALID="s" HPOS="499" VPOS="868" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="P4_TB00008" HPOS="127" VPOS="910" WIDTH="576" HEIGHT="35" language="ger" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="P4_TL00017" HPOS="127" VPOS="910" WIDTH="576" HEIGHT="35">
+						<String ID="P4_ST00092" HPOS="127" VPOS="910" WIDTH="68" HEIGHT="27" CONTENT="Sind" WC="0.98" CC="5120">
+							<Glyph ID="P4_ST00092_G000" CONTENT="S" VALID="s" HPOS="127" VPOS="910" WIDTH="17" HEIGHT="27" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00092_G001" CONTENT="i" VALID="s" HPOS="144" VPOS="910" WIDTH="17" HEIGHT="27" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00092_G002" CONTENT="n" VALID="s" HPOS="161" VPOS="910" WIDTH="17" HEIGHT="27" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00092_G003" CONTENT="d" VALID="s" HPOS="178" VPOS="910" WIDTH="17" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00076" HPOS="195" VPOS="937" WIDTH="20"/>
+						<String ID="P4_ST00093" HPOS="215" VPOS="912" WIDTH="29" HEIGHT="32" CONTENT="sic" WC="0.94" CC="564">
+							<Glyph ID="P4_ST00093_G000" CONTENT="s" VALID="s" HPOS="215" VPOS="912" WIDTH="9" HEIGHT="32" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00093_G001" CONTENT="i" VALID="s" HPOS="224" VPOS="912" WIDTH="9" HEIGHT="32" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00093_G002" CONTENT="c" VALID="s" HPOS="233" VPOS="912" WIDTH="9" HEIGHT="32" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00077" HPOS="244" VPOS="944" WIDTH="21"/>
+						<String ID="P4_ST00094" HPOS="265" VPOS="911" WIDTH="175" HEIGHT="34" CONTENT="verschwunden" WC="0.99" CC="400022533007">
+							<Glyph ID="P4_ST00094_G000" CONTENT="v" VALID="s" HPOS="265" VPOS="911" WIDTH="14" HEIGHT="34" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00094_G001" CONTENT="e" VALID="s" HPOS="279" VPOS="911" WIDTH="14" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00094_G002" CONTENT="r" VALID="s" HPOS="293" VPOS="911" WIDTH="14" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00094_G003" CONTENT="s" VALID="s" HPOS="307" VPOS="911" WIDTH="14" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00094_G004" CONTENT="c" VALID="s" HPOS="321" VPOS="911" WIDTH="14" HEIGHT="34" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00094_G005" CONTENT="h" VALID="s" HPOS="335" VPOS="911" WIDTH="14" HEIGHT="34" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00094_G006" CONTENT="w" VALID="s" HPOS="349" VPOS="911" WIDTH="14" HEIGHT="34" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00094_G007" CONTENT="u" VALID="s" HPOS="363" VPOS="911" WIDTH="14" HEIGHT="34" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00094_G008" CONTENT="n" VALID="s" HPOS="377" VPOS="911" WIDTH="14" HEIGHT="34" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00094_G009" CONTENT="d" VALID="s" HPOS="391" VPOS="911" WIDTH="14" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00094_G010" CONTENT="e" VALID="s" HPOS="405" VPOS="911" WIDTH="14" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00094_G011" CONTENT="n" VALID="s" HPOS="419" VPOS="911" WIDTH="14" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00078" HPOS="440" VPOS="945" WIDTH="20"/>
+						<String ID="P4_ST00095" HPOS="460" VPOS="912" WIDTH="24" HEIGHT="26" CONTENT="in" WC="0.84" CC="30">
+							<Glyph ID="P4_ST00095_G000" CONTENT="i" VALID="s" HPOS="460" VPOS="912" WIDTH="12" HEIGHT="26" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00095_G001" CONTENT="n" VALID="s" HPOS="472" VPOS="912" WIDTH="12" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00079" HPOS="484" VPOS="945" WIDTH="19"/>
+						<String ID="P4_ST00096" HPOS="503" VPOS="913" WIDTH="50" HEIGHT="26" CONTENT="dem" WC="0.98" CC="005">
+							<Glyph ID="P4_ST00096_G000" CONTENT="d" VALID="s" HPOS="503" VPOS="913" WIDTH="16" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00096_G001" CONTENT="e" VALID="s" HPOS="519" VPOS="913" WIDTH="16" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00096_G002" CONTENT="m" VALID="s" HPOS="535" VPOS="913" WIDTH="16" HEIGHT="26" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00080" HPOS="553" VPOS="945" WIDTH="20"/>
+						<String ID="P4_ST00097" HPOS="573" VPOS="910" WIDTH="80" HEIGHT="28" CONTENT="Wald." WC="0.98" CC="06600">
+							<Glyph ID="P4_ST00097_G000" CONTENT="W" VALID="s" HPOS="573" VPOS="910" WIDTH="16" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00097_G001" CONTENT="a" VALID="s" HPOS="589" VPOS="910" WIDTH="16" HEIGHT="28" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00097_G002" CONTENT="l" VALID="s" HPOS="605" VPOS="910" WIDTH="16" HEIGHT="28" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00097_G003" CONTENT="d" VALID="s" HPOS="621" VPOS="910" WIDTH="16" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00097_G004" CONTENT="." VALID="s" HPOS="637" VPOS="910" WIDTH="16" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00081" HPOS="653" VPOS="945" WIDTH="16"/>
+						<String ID="P4_ST00098" HPOS="669" VPOS="926" WIDTH="34" HEIGHT="5" CONTENT="—" WC="0.20" CC="8">
+							<Glyph ID="P4_ST00098_G000" CONTENT="—" VALID="s" HPOS="669" VPOS="926" WIDTH="34" HEIGHT="5" GC="0.8">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="P4_TB00009" HPOS="128" VPOS="996" WIDTH="610" HEIGHT="163" language="ger" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="P4_TL00018" HPOS="199" VPOS="996" WIDTH="539" HEIGHT="35">
+						<String ID="P4_ST00099" HPOS="199" VPOS="996" WIDTH="60" HEIGHT="29" CONTENT="Das" WC="0.99" CC="010">
+							<Glyph ID="P4_ST00099_G000" CONTENT="D" VALID="s" HPOS="199" VPOS="996" WIDTH="20" HEIGHT="29" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00099_G001" CONTENT="a" VALID="s" HPOS="219" VPOS="996" WIDTH="20" HEIGHT="29" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00099_G002" CONTENT="s" VALID="s" HPOS="239" VPOS="996" WIDTH="20" HEIGHT="29" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00082" HPOS="259" VPOS="1025" WIDTH="20"/>
+						<String ID="P4_ST00100" HPOS="279" VPOS="997" WIDTH="92" HEIGHT="28" CONTENT="Wetter" WC="1.00" CC="000300">
+							<Glyph ID="P4_ST00100_G000" CONTENT="W" VALID="s" HPOS="279" VPOS="997" WIDTH="15" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00100_G001" CONTENT="e" VALID="s" HPOS="294" VPOS="997" WIDTH="15" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00100_G002" CONTENT="t" VALID="s" HPOS="309" VPOS="997" WIDTH="15" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00100_G003" CONTENT="t" VALID="s" HPOS="324" VPOS="997" WIDTH="15" HEIGHT="28" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00100_G004" CONTENT="e" VALID="s" HPOS="339" VPOS="997" WIDTH="15" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00100_G005" CONTENT="r" VALID="s" HPOS="354" VPOS="997" WIDTH="15" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00083" HPOS="371" VPOS="1025" WIDTH="21"/>
+						<String ID="P4_ST00101" HPOS="392" VPOS="996" WIDTH="27" HEIGHT="34" CONTENT="ist" WC="0.95" CC="660">
+							<Glyph ID="P4_ST00101_G000" CONTENT="i" VALID="s" HPOS="392" VPOS="996" WIDTH="9" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00101_G001" CONTENT="s" VALID="s" HPOS="401" VPOS="996" WIDTH="9" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00101_G002" CONTENT="t" VALID="s" HPOS="410" VPOS="996" WIDTH="9" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00084" HPOS="419" VPOS="1030" WIDTH="19"/>
+						<String ID="P4_ST00102" HPOS="438" VPOS="997" WIDTH="64" HEIGHT="33" CONTENT="schon" WC="0.98" CC="40036">
+							<Glyph ID="P4_ST00102_G000" CONTENT="s" VALID="s" HPOS="438" VPOS="997" WIDTH="12" HEIGHT="33" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00102_G001" CONTENT="c" VALID="s" HPOS="450" VPOS="997" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00102_G002" CONTENT="h" VALID="s" HPOS="462" VPOS="997" WIDTH="12" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00102_G003" CONTENT="o" VALID="s" HPOS="474" VPOS="997" WIDTH="12" HEIGHT="33" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00102_G004" CONTENT="n" VALID="s" HPOS="486" VPOS="997" WIDTH="12" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00085" HPOS="502" VPOS="1030" WIDTH="17"/>
+						<String ID="P4_ST00103" HPOS="519" VPOS="997" WIDTH="77" HEIGHT="34" CONTENT="längst" WC="0.98" CC="007163">
+							<Glyph ID="P4_ST00103_G000" CONTENT="l" VALID="s" HPOS="519" VPOS="997" WIDTH="12" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00103_G001" CONTENT="ä" VALID="s" HPOS="531" VPOS="997" WIDTH="12" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00103_G002" CONTENT="n" VALID="s" HPOS="543" VPOS="997" WIDTH="12" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00103_G003" CONTENT="g" VALID="s" HPOS="555" VPOS="997" WIDTH="12" HEIGHT="34" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00103_G004" CONTENT="s" VALID="s" HPOS="567" VPOS="997" WIDTH="12" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00103_G005" CONTENT="t" VALID="s" HPOS="579" VPOS="997" WIDTH="12" HEIGHT="34" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00086" HPOS="596" VPOS="1031" WIDTH="20"/>
+						<String ID="P4_ST00104" HPOS="616" VPOS="997" WIDTH="122" HEIGHT="33" CONTENT="versunken" WC="0.98" CC="771257777">
+							<Glyph ID="P4_ST00104_G000" CONTENT="v" VALID="s" HPOS="616" VPOS="997" WIDTH="13" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00104_G001" CONTENT="e" VALID="s" HPOS="629" VPOS="997" WIDTH="13" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00104_G002" CONTENT="r" VALID="s" HPOS="642" VPOS="997" WIDTH="13" HEIGHT="33" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00104_G003" CONTENT="s" VALID="s" HPOS="655" VPOS="997" WIDTH="13" HEIGHT="33" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00104_G004" CONTENT="u" VALID="s" HPOS="668" VPOS="997" WIDTH="13" HEIGHT="33" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00104_G005" CONTENT="n" VALID="s" HPOS="681" VPOS="997" WIDTH="13" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00104_G006" CONTENT="k" VALID="s" HPOS="694" VPOS="997" WIDTH="13" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00104_G007" CONTENT="e" VALID="s" HPOS="707" VPOS="997" WIDTH="13" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00104_G008" CONTENT="n" VALID="s" HPOS="720" VPOS="997" WIDTH="13" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+					<TextLine ID="P4_TL00019" HPOS="128" VPOS="1040" WIDTH="490" HEIGHT="35">
+						<String ID="P4_ST00105" HPOS="128" VPOS="1041" WIDTH="38" HEIGHT="28" CONTENT="In" WC="0.41" CC="83">
+							<Glyph ID="P4_ST00105_G000" CONTENT="I" VALID="s" HPOS="128" VPOS="1041" WIDTH="19" HEIGHT="28" GC="0.8">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00105_G001" CONTENT="n" VALID="s" HPOS="147" VPOS="1041" WIDTH="19" HEIGHT="28" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00087" HPOS="166" VPOS="1069" WIDTH="20"/>
+						<String ID="P4_ST00106" HPOS="186" VPOS="1040" WIDTH="109" HEIGHT="35" CONTENT="schwarze" WC="0.99" CC="30006057">
+							<Glyph ID="P4_ST00106_G000" CONTENT="s" VALID="s" HPOS="186" VPOS="1040" WIDTH="13" HEIGHT="35" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00106_G001" CONTENT="c" VALID="s" HPOS="199" VPOS="1040" WIDTH="13" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00106_G002" CONTENT="h" VALID="s" HPOS="212" VPOS="1040" WIDTH="13" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00106_G003" CONTENT="w" VALID="s" HPOS="225" VPOS="1040" WIDTH="13" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00106_G004" CONTENT="a" VALID="s" HPOS="238" VPOS="1040" WIDTH="13" HEIGHT="35" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00106_G005" CONTENT="r" VALID="s" HPOS="251" VPOS="1040" WIDTH="13" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00106_G006" CONTENT="z" VALID="s" HPOS="264" VPOS="1040" WIDTH="13" HEIGHT="35" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00106_G007" CONTENT="e" VALID="s" HPOS="277" VPOS="1040" WIDTH="13" HEIGHT="35" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00088" HPOS="295" VPOS="1075" WIDTH="20"/>
+						<String ID="P4_ST00107" HPOS="315" VPOS="1040" WIDTH="82" HEIGHT="33" CONTENT="Nacht," WC="0.99" CC="300004">
+							<Glyph ID="P4_ST00107_G000" CONTENT="N" VALID="s" HPOS="315" VPOS="1040" WIDTH="13" HEIGHT="33" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00107_G001" CONTENT="a" VALID="s" HPOS="328" VPOS="1040" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00107_G002" CONTENT="c" VALID="s" HPOS="341" VPOS="1040" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00107_G003" CONTENT="h" VALID="s" HPOS="354" VPOS="1040" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00107_G004" CONTENT="t" VALID="s" HPOS="367" VPOS="1040" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00107_G005" CONTENT="," VALID="s" HPOS="380" VPOS="1040" WIDTH="13" HEIGHT="33" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00089" HPOS="397" VPOS="1075" WIDTH="20"/>
+						<String ID="P4_ST00108" HPOS="417" VPOS="1040" WIDTH="35" HEIGHT="26" CONTENT="die" WC="0.95" CC="066">
+							<Glyph ID="P4_ST00108_G000" CONTENT="d" VALID="s" HPOS="417" VPOS="1040" WIDTH="11" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00108_G001" CONTENT="i" VALID="s" HPOS="428" VPOS="1040" WIDTH="11" HEIGHT="26" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00108_G002" CONTENT="e" VALID="s" HPOS="439" VPOS="1040" WIDTH="11" HEIGHT="26" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00090" HPOS="452" VPOS="1075" WIDTH="19"/>
+						<String ID="P4_ST00109" HPOS="471" VPOS="1045" WIDTH="26" HEIGHT="23" CONTENT="es" WC="0.82" CC="30">
+							<Glyph ID="P4_ST00109_G000" CONTENT="e" VALID="s" HPOS="471" VPOS="1045" WIDTH="13" HEIGHT="23" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00109_G001" CONTENT="s" VALID="s" HPOS="484" VPOS="1045" WIDTH="13" HEIGHT="23" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00091" HPOS="497" VPOS="1075" WIDTH="21"/>
+						<String ID="P4_ST00110" HPOS="518" VPOS="1041" WIDTH="100" HEIGHT="33" CONTENT="geboren" WC="0.98" CC="0036277">
+							<Glyph ID="P4_ST00110_G000" CONTENT="g" VALID="s" HPOS="518" VPOS="1041" WIDTH="14" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00110_G001" CONTENT="e" VALID="s" HPOS="532" VPOS="1041" WIDTH="14" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00110_G002" CONTENT="b" VALID="s" HPOS="546" VPOS="1041" WIDTH="14" HEIGHT="33" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00110_G003" CONTENT="o" VALID="s" HPOS="560" VPOS="1041" WIDTH="14" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00110_G004" CONTENT="r" VALID="s" HPOS="574" VPOS="1041" WIDTH="14" HEIGHT="33" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00110_G005" CONTENT="e" VALID="s" HPOS="588" VPOS="1041" WIDTH="14" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00110_G006" CONTENT="n" VALID="s" HPOS="602" VPOS="1041" WIDTH="14" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+					<TextLine ID="P4_TL00020" HPOS="128" VPOS="1083" WIDTH="548" HEIGHT="35">
+						<String ID="P4_ST00111" HPOS="128" VPOS="1083" WIDTH="53" HEIGHT="26" CONTENT="Und" WC="0.97" CC="250">
+							<Glyph ID="P4_ST00111_G000" CONTENT="U" VALID="s" HPOS="128" VPOS="1083" WIDTH="17" HEIGHT="26" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00111_G001" CONTENT="n" VALID="s" HPOS="145" VPOS="1083" WIDTH="17" HEIGHT="26" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00111_G002" CONTENT="d" VALID="s" HPOS="162" VPOS="1083" WIDTH="17" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00092" HPOS="181" VPOS="1109" WIDTH="19"/>
+						<String ID="P4_ST00112" HPOS="200" VPOS="1083" WIDTH="37" HEIGHT="34" CONTENT="hie" WC="0.97" CC="014">
+							<Glyph ID="P4_ST00112_G000" CONTENT="h" VALID="s" HPOS="200" VPOS="1083" WIDTH="12" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00112_G001" CONTENT="i" VALID="s" HPOS="212" VPOS="1083" WIDTH="12" HEIGHT="34" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00112_G002" CONTENT="e" VALID="s" HPOS="224" VPOS="1083" WIDTH="12" HEIGHT="34" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00093" HPOS="237" VPOS="1117" WIDTH="19"/>
+						<String ID="P4_ST00113" HPOS="256" VPOS="1085" WIDTH="48" HEIGHT="26" CONTENT="und" WC="0.97" CC="070">
+							<Glyph ID="P4_ST00113_G000" CONTENT="u" VALID="s" HPOS="256" VPOS="1085" WIDTH="16" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00113_G001" CONTENT="n" VALID="s" HPOS="272" VPOS="1085" WIDTH="16" HEIGHT="26" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00113_G002" CONTENT="d" VALID="s" HPOS="288" VPOS="1085" WIDTH="16" HEIGHT="26" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00094" HPOS="304" VPOS="1117" WIDTH="20"/>
+						<String ID="P4_ST00114" HPOS="324" VPOS="1085" WIDTH="29" HEIGHT="26" CONTENT="da" WC="0.64" CC="24">
+							<Glyph ID="P4_ST00114_G000" CONTENT="d" VALID="s" HPOS="324" VPOS="1085" WIDTH="14" HEIGHT="26" GC="0.2">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00114_G001" CONTENT="a" VALID="s" HPOS="338" VPOS="1085" WIDTH="14" HEIGHT="26" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00095" HPOS="353" VPOS="1117" WIDTH="20"/>
+						<String ID="P4_ST00115" HPOS="373" VPOS="1083" WIDTH="102" HEIGHT="35" CONTENT="glimmt," WC="0.98" CC="0604064">
+							<Glyph ID="P4_ST00115_G000" CONTENT="g" VALID="s" HPOS="373" VPOS="1083" WIDTH="14" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00115_G001" CONTENT="l" VALID="s" HPOS="387" VPOS="1083" WIDTH="14" HEIGHT="35" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00115_G002" CONTENT="i" VALID="s" HPOS="401" VPOS="1083" WIDTH="14" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00115_G003" CONTENT="m" VALID="s" HPOS="415" VPOS="1083" WIDTH="14" HEIGHT="35" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00115_G004" CONTENT="m" VALID="s" HPOS="429" VPOS="1083" WIDTH="14" HEIGHT="35" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00115_G005" CONTENT="t" VALID="s" HPOS="443" VPOS="1083" WIDTH="14" HEIGHT="35" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00115_G006" CONTENT="," VALID="s" HPOS="457" VPOS="1083" WIDTH="14" HEIGHT="35" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00096" HPOS="475" VPOS="1118" WIDTH="20"/>
+						<String ID="P4_ST00116" HPOS="495" VPOS="1083" WIDTH="44" HEIGHT="28" CONTENT="wie" WC="0.95" CC="057">
+							<Glyph ID="P4_ST00116_G000" CONTENT="w" VALID="s" HPOS="495" VPOS="1083" WIDTH="14" HEIGHT="28" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00116_G001" CONTENT="i" VALID="s" HPOS="509" VPOS="1083" WIDTH="14" HEIGHT="28" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00116_G002" CONTENT="e" VALID="s" HPOS="523" VPOS="1083" WIDTH="14" HEIGHT="28" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00097" HPOS="539" VPOS="1118" WIDTH="20"/>
+						<String ID="P4_ST00117" HPOS="559" VPOS="1083" WIDTH="117" HEIGHT="33" CONTENT="verloren," WC="0.99" CC="170340063">
+							<Glyph ID="P4_ST00117_G000" CONTENT="v" VALID="s" HPOS="559" VPOS="1083" WIDTH="13" HEIGHT="33" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00117_G001" CONTENT="e" VALID="s" HPOS="572" VPOS="1083" WIDTH="13" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00117_G002" CONTENT="r" VALID="s" HPOS="585" VPOS="1083" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00117_G003" CONTENT="l" VALID="s" HPOS="598" VPOS="1083" WIDTH="13" HEIGHT="33" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00117_G004" CONTENT="o" VALID="s" HPOS="611" VPOS="1083" WIDTH="13" HEIGHT="33" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00117_G005" CONTENT="r" VALID="s" HPOS="624" VPOS="1083" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00117_G006" CONTENT="e" VALID="s" HPOS="637" VPOS="1083" WIDTH="13" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00117_G007" CONTENT="n" VALID="s" HPOS="650" VPOS="1083" WIDTH="13" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00117_G008" CONTENT="," VALID="s" HPOS="663" VPOS="1083" WIDTH="13" HEIGHT="33" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+					<TextLine ID="P4_TL00021" HPOS="128" VPOS="1125" WIDTH="512" HEIGHT="34">
+						<String ID="P4_ST00118" HPOS="128" VPOS="1126" WIDTH="48" HEIGHT="26" CONTENT="Am" WC="0.29" CC="77">
+							<Glyph ID="P4_ST00118_G000" CONTENT="A" VALID="s" HPOS="128" VPOS="1126" WIDTH="24" HEIGHT="26" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00118_G001" CONTENT="m" VALID="s" HPOS="152" VPOS="1126" WIDTH="24" HEIGHT="26" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00098" HPOS="176" VPOS="1152" WIDTH="20"/>
+						<String ID="P4_ST00119" HPOS="196" VPOS="1125" WIDTH="107" HEIGHT="34" CONTENT="Himmel" WC="0.98" CC="060470">
+							<Glyph ID="P4_ST00119_G000" CONTENT="H" VALID="s" HPOS="196" VPOS="1125" WIDTH="17" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00119_G001" CONTENT="i" VALID="s" HPOS="213" VPOS="1125" WIDTH="17" HEIGHT="34" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00119_G002" CONTENT="m" VALID="s" HPOS="230" VPOS="1125" WIDTH="17" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00119_G003" CONTENT="m" VALID="s" HPOS="247" VPOS="1125" WIDTH="17" HEIGHT="34" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00119_G004" CONTENT="e" VALID="s" HPOS="264" VPOS="1125" WIDTH="17" HEIGHT="34" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00119_G005" CONTENT="l" VALID="s" HPOS="281" VPOS="1125" WIDTH="17" HEIGHT="34" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00099" HPOS="303" VPOS="1159" WIDTH="19"/>
+						<String ID="P4_ST00120" HPOS="322" VPOS="1127" WIDTH="48" HEIGHT="27" CONTENT="klar" WC="0.96" CC="6660">
+							<Glyph ID="P4_ST00120_G000" CONTENT="k" VALID="s" HPOS="322" VPOS="1127" WIDTH="12" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00120_G001" CONTENT="l" VALID="s" HPOS="334" VPOS="1127" WIDTH="12" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00120_G002" CONTENT="a" VALID="s" HPOS="346" VPOS="1127" WIDTH="12" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00120_G003" CONTENT="r" VALID="s" HPOS="358" VPOS="1127" WIDTH="12" HEIGHT="27" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00100" HPOS="370" VPOS="1159" WIDTH="20"/>
+						<String ID="P4_ST00121" HPOS="390" VPOS="1126" WIDTH="35" HEIGHT="27" CONTENT="ein" WC="0.93" CC="476">
+							<Glyph ID="P4_ST00121_G000" CONTENT="e" VALID="s" HPOS="390" VPOS="1126" WIDTH="11" HEIGHT="27" GC="0.4">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00121_G001" CONTENT="i" VALID="s" HPOS="401" VPOS="1126" WIDTH="11" HEIGHT="27" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00121_G002" CONTENT="n" VALID="s" HPOS="412" VPOS="1126" WIDTH="11" HEIGHT="27" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00101" HPOS="425" VPOS="1159" WIDTH="15"/>
+						<String ID="P4_ST00122" HPOS="440" VPOS="1126" WIDTH="200" HEIGHT="33" CONTENT="Sterucnfunken." WC="0.50" CC="65506670536770">
+							<Glyph ID="P4_ST00122_G000" CONTENT="S" VALID="s" HPOS="440" VPOS="1126" WIDTH="14" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00122_G001" CONTENT="t" VALID="s" HPOS="454" VPOS="1126" WIDTH="14" HEIGHT="33" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00122_G002" CONTENT="e" VALID="s" HPOS="468" VPOS="1126" WIDTH="14" HEIGHT="33" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00122_G003" CONTENT="r" VALID="s" HPOS="482" VPOS="1126" WIDTH="14" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00122_G004" CONTENT="u" VALID="s" HPOS="496" VPOS="1126" WIDTH="14" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00122_G005" CONTENT="c" VALID="s" HPOS="510" VPOS="1126" WIDTH="14" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00122_G006" CONTENT="n" VALID="s" HPOS="524" VPOS="1126" WIDTH="14" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00122_G007" CONTENT="f" VALID="s" HPOS="538" VPOS="1126" WIDTH="14" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00122_G008" CONTENT="u" VALID="s" HPOS="552" VPOS="1126" WIDTH="14" HEIGHT="33" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00122_G009" CONTENT="n" VALID="s" HPOS="566" VPOS="1126" WIDTH="14" HEIGHT="33" GC="0.3">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00122_G010" CONTENT="k" VALID="s" HPOS="580" VPOS="1126" WIDTH="14" HEIGHT="33" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00122_G011" CONTENT="e" VALID="s" HPOS="594" VPOS="1126" WIDTH="14" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00122_G012" CONTENT="n" VALID="s" HPOS="608" VPOS="1126" WIDTH="14" HEIGHT="33" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00122_G013" CONTENT="." VALID="s" HPOS="622" VPOS="1126" WIDTH="14" HEIGHT="33" GC="0.0">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="P4_TB00010" HPOS="182" VPOS="1174" WIDTH="525" HEIGHT="17" language="ger" STYLEREFS="TXT_2 PAR_CENTER">
+					<TextLine ID="P4_TL00022" HPOS="182" VPOS="1174" WIDTH="525" HEIGHT="17">
+						<String ID="P4_ST00123" HPOS="182" VPOS="1174" WIDTH="83" HEIGHT="17" CONTENT="Melusina" WC="0.45" CC="76771165">
+							<Glyph ID="P4_ST00123_G000" CONTENT="M" VALID="s" HPOS="182" VPOS="1174" WIDTH="10" HEIGHT="17" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00123_G001" CONTENT="e" VALID="s" HPOS="192" VPOS="1174" WIDTH="10" HEIGHT="17" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00123_G002" CONTENT="l" VALID="s" HPOS="202" VPOS="1174" WIDTH="10" HEIGHT="17" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00123_G003" CONTENT="u" VALID="s" HPOS="212" VPOS="1174" WIDTH="10" HEIGHT="17" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00123_G004" CONTENT="s" VALID="s" HPOS="222" VPOS="1174" WIDTH="10" HEIGHT="17" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00123_G005" CONTENT="i" VALID="s" HPOS="232" VPOS="1174" WIDTH="10" HEIGHT="17" GC="0.1">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00123_G006" CONTENT="n" VALID="s" HPOS="242" VPOS="1174" WIDTH="10" HEIGHT="17" GC="0.6">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+							<Glyph ID="P4_ST00123_G007" CONTENT="a" VALID="s" HPOS="252" VPOS="1174" WIDTH="10" HEIGHT="17" GC="0.5">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+						<SP ID="P4_SP00102" HPOS="265" VPOS="1191" WIDTH="431"/>
+						<String ID="P4_ST00124" HPOS="696" VPOS="1174" WIDTH="11" HEIGHT="15" CONTENT="4" WC="0.25" CC="7">
+							<Glyph ID="P4_ST00124_G000" CONTENT="4" VALID="s" HPOS="696" VPOS="1174" WIDTH="11" HEIGHT="15" GC="0.7">
+								<Variant VC="0.0">0</Variant>
+								<Variant VC="0.1">1</Variant>
+								<Variant VC="0.2">2</Variant>
+							</Glyph>
+						</String>
+					</TextLine>
+				</TextBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>
