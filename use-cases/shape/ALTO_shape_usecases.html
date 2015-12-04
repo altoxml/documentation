@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="css/altoxml_usecases.css" />
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js?ver=4.0"></script>
+        <script>
+
+	function toc() {
+		var ToC =
+  		"<nav role='navigation' class='table-of-contents'>" +
+    		"<h2>Table of contents</h2>";
+		var newLine, el, title1, title, link;
+	
+		$("toc :header").each(function(){
+	  	el = $(this);
+  		title = el.text();
+    	title = title.replace(/</g, '&lt;');
+  		link = "#" + el.attr("id");
+
+		tagname = el.prop("tagName");
+		indent = "";
+		
+		if (tagname == "H3") {
+			classname = "toc_l_two";
+		} else if (tagname == "H4") {
+			classname = "toc_l_three";
+		} else {
+			classname = "toc";
+		}
+
+  		newLine =
+    		"<p class=\"" + classname + "\">" + 
+      		"<a href='" + link + "'>" +
+        		title +
+      		"</a>" +
+    		"</p>";
+
+	  	ToC += newLine;
+		
+		});
+		
+		ToC += "</nav>";
+		$(".toc").prepend(ToC);
+}
+</script>
+
+    </head>
+
+    <body onload="toc()">
+        <h1>ALTO shape use cases</h1>
+        <p>Draft version 19-11-2014</p>
+        <p>ALTO Board</p>
+        <div class="copyright_notice">
+            <p>Copyright © 2014 ALTO Board. All rights reserved.</p>
+						<p>...</p>
+            <p>The ALTO Board</p>
+        </div>
+        
+        <toc class="toc"/>
+        <h2 id="intrduction">Introduction</h2>
+        <p>The ALTO version 3.1 introduces makes it possible to use the shapes other than the standard rectangle for the elements String, TextLine, PageSpaceType and all block types.</p>
+            
+        <h3>Use Cases</h3>
+        
+        <h4 id="text_tags_2">Layout that can be described with polygons</h4>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Dropped caps</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+...
+&lt;TextBlock ID="TextBlock4" HEIGHT="198" WIDTH="785" 
+    HPOS="318" VPOS="1456" >
+	&lt;TextLine ID="TextLine8">
+  &lt;Shape>
+  	&lt;Polygon POINTS="325 1456 1023 1456 1023 1504 
+  	419 1504 419 1552 325 1552"/>
+  &lt;/Shape>
+  &lt;String ID="String33" CONTENT="EEn" WC="0.82" CC="050">
+	  &lt;Shape>&lt;Polygon POINTS="325 1456 419 1456 
+	  419 1552 325 1552"/>&lt;/shape>
+  &lt;/String>
+  &lt;SP ID="SP26" WIDTH="28" HPOS="472" VPOS="1456"/>
+  &lt;String ID="String34" CONTENT="F~iJJcher" 
+  HEIGHT="43" WIDTH="152"   HPOS="500" VPOS="1457" 
+  WC="0.82" CC="860001000"/>
+  &lt;SP ID="SP27" WIDTH="13" HPOS="652" VPOS="1457"/>
+ ...
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img class="example_image" src="images/polygons-example1.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks">Source: http://resolver.kb.nl/resolve?urn=dpo:1837:mpeg21:0006</div>
+        </div>
+        
+<!-- -->
+       <div class="example">
+            <div class="usecase_title">Headline on more than one row</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img class="example_image" src="images/polygons-example3.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks">Source: http://resolver.kb.nl/resolve?urn=ddd:010646453:mpeg21:p005</div>
+        </div>
+
+<!-- -->
+       <div class="example">
+            <div class="usecase_title">Skewed text - 1</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;TextBlock ID="P6_TB10004" ROTATION="315">
+  &lt;Shape>&lt;Polygon POINTS="1 2 3 4 5 6 7 8"/>&lt;/Shape>
+  &lt;TextLine ID="P6_TL10022">
+    &lt;Shape>&lt;Polygon POINTS="1 2 3 4 5 6 7 8"/>&lt;/Shape>
+    &lt;String ID="P6_ST10188" CONTENT="LODEN" WC="0.98" CC="00804">
+      &lt;Shape>&lt;Polygon POINTS="1 2 3 4 5 6 7 8"/>&lt;/Shape>
+    &lt;/String>
+    &lt;SP ID="P6_SP10167" HPOS="581" VPOS="381" WIDTH="60"/>
+    &lt;String ID="P6_ST10189" CONTENT="JASSEN" WC="0.99" CC="040000">
+      &lt;Shape>&lt;Polygon POINTS="1 2 3 4 5 6 7 8" />&lt;/Shape>
+    &lt;/String>
+...                    	
+                        
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img class="example_image" src="images/polygons-example4.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks">Note that the TextLine and String element inherit the Rotation characteristics from the TextBlock element.</div>
+            <div class="usecase_remarks"/>
+            <div class="usecase_remarks">Source: http://resolver.kb.nl/resolve?urn=ddd:010417484:mpeg21:p006</div>
+        </div>
+
+
+<!-- -->
+       <div class="example">
+            <div class="usecase_title">Skewed text - 2</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;ComposedBlock ID="ComposedBlock2" HEIGHT="842" WIDTH="746" 
+                  HPOS="167" VPOS="253" ROTATION="270">
+  &lt;TextBlock ID="TextBlock2" HEIGHT="842" WIDTH="746" 
+                HPOS="167" VPOS="253">
+    &lt;TextLine ID="TextLine10" HEIGHT="842" WIDTH="746" 
+                 HPOS="167" VPOS="253">
+      &lt;String ID="String155" HEIGHT="842" WIDTH="746" 
+                 HPOS="167" VPOS="253" CONTENT="Amsterdam">&lt;/String>
+      ...
+    &lt;/TextLine>
+  &lt;/TextBlock>
+  &lt;TextBlock ID="TextBlock3" HEIGHT="842" WIDTH="746" 
+                HPOS="167" VPOS="253">
+    &lt;TextLine ID="TextLine18">
+    ...
+
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img class="example_image" src="images/polygon-example5a.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks">In this example the direction of the text is recorded in the rotation attribute in the ComposedBlock element and is inherited by the individual TextBlocks. It could also be recorded in each individual TextBlocks.</div>
+            <div class="usecase_remarks">&nbsp;</div>
+            <div class="usecase_remarks">Source: </div>                       
+        </div>
+        
+        
+<!-- -->
+       <div class="example">
+            <div class="usecase_title">Wrapped text</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img class="example_image" src="images/polygons-example2.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks">Source: http://resolver.kb.nl/resolve?urn=dts:2958045:mpeg21:0001</div>
+        </div>
+
+
+
+            
+    </body>
+</html>

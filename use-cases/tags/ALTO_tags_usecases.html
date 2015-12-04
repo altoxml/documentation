@@ -1,0 +1,1927 @@
+﻿<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="css/altoxml_usecases.css" />
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js?ver=4.0"></script>
+        <script>
+
+	function toc() {
+		var ToC =
+  		"<nav role='navigation' class='table-of-contents'>" +
+    		"<h2>Table of contents</h2>";
+		var newLine, el, title1, title, link;
+	
+		$("toc :header").each(function(){
+	  	el = $(this);
+  		title = el.text();
+    	title = title.replace(/</g, '&lt;');
+  		link = "#" + el.attr("id");
+
+		tagname = el.prop("tagName");
+		indent = "";
+		
+		if (tagname == "H3") {
+			classname = "toc_l_two";
+		} else if (tagname == "H4") {
+			classname = "toc_l_three";
+		} else {
+			classname = "toc";
+		}
+
+  		newLine =
+    		"<p class=\"" + classname + "\">" + 
+      		"<a href='" + link + "'>" +
+        		title +
+      		"</a>" +
+    		"</p>";
+
+	  	ToC += newLine;
+		
+		});
+		
+		ToC += "</nav>";
+		$(".toc").prepend(ToC);
+}
+</script>
+
+    </head>
+
+    <body onload="toc()">
+        <h1>ALTO tag use cases</h1>
+        <p>Version 16-01-2014</p>
+        <p>ALTO Board</p>
+        <div class="copyright_notice">
+            <p>Copyright © 2014 ALTO Board. All rights reserved.</p>
+            <p>No part of this publication may be reproduced, stored in databases, or transferred in
+                any form (electronically, photo-mechanically, chemically, manually, or otherwise)
+                without the express written permission of the ALTO Board. The software described in
+                this manual is licensed software that may be used only in compliance with the
+                licensing terms and conditions. The ALTO Board reserves the right to make changes to
+                the content of this manual without notice. The ALTO Board makes no guarantee
+                regarding the accuracy of the information provided in this manual. Microsoft,
+                MS-DOS, and Windows are registered trademarks of the Microsoft Corporation. Parts of
+                the software uses the Duden-Proof-Factory of the Brockhaus Duden Neue Medien GmbH
+                for syllable separation.</p>
+            <p>Product or company names that are mentioned may be trademarks or registered
+                trademarks of the respective company. The ALTO Board uses these names and trademarks
+                in the following manual merely for explanatory purposes and for the benefit of the
+                respective user, and such use does not imply trademark infringement. Under this
+                software license, you are only permitted to reproduce materials that are not
+                protected by copyright laws. This excludes only materials where you hold the
+                copyright and/or legal permission to reproduce copyrighted materials. If you are
+                uncertain about the copyright status of certain materials then please seek legal
+                counsel. The ALTO Board holds no liability over copyright violations resulting from
+                the use of this software.</p>
+            <p>Last updated: 15.01.2014</p>
+            <p>The ALTO Board</p>
+        </div>
+        
+        <toc class="toc"/>
+        <h2 id="intrduction">Introduction</h2>
+        <p>The ALTO version 2.1 introduces a new mechanism: tag (or annotation). The aim of this
+            mechanism is to cover several change requests concerning the ALTO format:</p>
+        <dl>
+            <dt>Layout labelling</dt>
+            <dd>ALTO format should record various region types (tables, graphics, maths formulas,
+                music scores, etc.)</dd>
+            <dt>Logical Labelling Of Structural Elements</dt>
+            <dd>Structural tagging of documents offers a large number of benefits. Full text search
+                can be done in a much more focused way, reprinting of digitised books could be made
+                easier, etc.</dd>
+            <dt>Named Entity markup</dt>
+            <dd>Post-OCR processing on page images often includes named-entity recognition
+                attempts.</dd>
+        </dl>
+        <h3 id="xml_schema_1">XML schema</h3>
+        <p>This mechanism has been introduced in ALTO version 2.1 schema. In XML terms, a reference
+            to a new element group "Tags/Tag" allows to add additional information to the contents
+            which are referring to these tag elements:</p>
+        <pre>
+		<code>
+
+&lt;Tags>
+&lt;NamedEntityTag ID="NE15" LABEL="Location" DESCRIPTION="Lexington"/>
+…
+&lt;/Tags>
+&lt;Layout>
+…
+&lt;String CONTENT="Lexington" WC="1.0" TAGREFS="NE15" HPOS… VPOS…>
+…
+&lt;/Layout>
+		</code>
+	</pre>
+        <h3 id="good_pratices_limitations_1">Good pratices, limitations</h3>
+        <ul>
+            <li>The tag reference must be set on the upper level available (eg on TextBlock, not on
+                all TextLines or Strings of the block).</li>
+            <li>A content crossing two or more pages can be described: the blocks composing this
+                content must reference the same tag ID.</li>
+            <li>If the IDs of the ALTO content elements change, the tag references must be
+                updated.</li>
+        </ul>
+        <h3 id="use_cases_1">Use cases</h3>
+        <p>For readibility purpose, IDs have been omitted in the following examples.</p>
+        <h2 id="layout_tagging">Layout tagging</h2>
+        <p>Before the actual character recognition starts, any OCR software analyzisis the page
+            structure to identify regions. Modern OCR software supports various region types than
+            ALTO could record: tables, graphics, music scores, etc. Some of these regions can be
+            categorized for the OCR software to use a specific algorithm or process when recognizing
+            their characteristics; they can also be identify with a manual labelling.</p>
+        <h3 id="xml_schema_2">XML schema</h3>
+        <p>ALTO tag element: <code>&lt;LayoutTag></code></p>
+        <p>Tag attributes:</p>
+        <dl>
+            <dt><code>ID</code></dt>
+            <dd>Tag id</dd>
+            <dt><code>LABEL</code></dt>
+            <dd>Region type</dd>
+            <dt><code>TYPE</code> (optional)</dt>
+            <dd>Suppertype or category of the region type</dd>
+            <dt><code>DESCRIPTION</code> (optional)</dt>
+            <dd>Description of the region, description of the region content, or the content
+                itself</dd>
+            <dt>XmlData (optional)</dt>
+            <dd>Any XML encoded metadata helping to describe the tag, or the vocabulary used to
+                describe the tag</dd>
+            <dt><code>URI</code> (optional)</dt>
+            <dd>Any authority URI relevant for the tag</dd>
+        </dl>
+        <h3 id="good_practices_2">Good pratices, limitations</h3>
+        <p>The intent of layout tagging is to identify types of content. Sometimes, specific types
+            of content can also have a functional value (sidebars, separators, etc.) and the
+            question of using a layout tag or a structural tag may be raised.</p>
+        <h4 id="text_tags_2">Text tags, to be applied on <code>&lt;ComposedBlock>, &lt;TextBlock>,
+                &lt;TextLine> or &lt;String></code> elements.</h4>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Frames, boxes, sidebars</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="Sidebar" 
+DESCRIPTION="Textual box"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_016.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Tables</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="Table" 
+DESCRIPTION="Table of numbers "/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_018.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Mathematical formulas</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag TYPE="Formula" 
+LABEL="MathFormula"
+DESCRIPTION="4 maths formulas"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_019.png" alt="" />
+                        <p>On <code>&lt;TextLine></code> elements</p>
+                    </div>
+                    <div class="usecase_image">
+                        <img src="images/Image_020.png" alt="" />
+                        <p>On <code>&lt;String></code> elements</p>
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Chemical formulas (text)</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag TYPE="Formula"
+LABEL="ChemFormula"
+DESCRIPTION="Ka formula"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_021.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Physics formulas</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag TYPE="Formula"
+LABEL="PhyFormula"
+DESCRIPTION="e and v formulas"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_022.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Text content under a stamp</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag 
+LABEL="TextStamped"
+DESCRIPTION="PAR"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_023.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks">See also “Stamps ” in the Graphical Element section</div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Handwriting contents, annotations, initials, etc.</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag TYPE="Typesetting"
+LABEL="Handwriting"
+DESCRIPTION="43g8"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_024.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag TYPE="Typesetting"
+LABEL="Handwriting"
+DESCRIPTION="N Roret"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_025.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks">Handwriting could also be described with a
+                    <code>&lt;GraphicalElement></code></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Manuscripts</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag TYPE="Typesetting"
+LABEL="Manuscript"
+DESCRIPTION="Old French manuscript"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_026.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Script fonts</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag TYPE="Typesetting"
+LABEL="ScriptFonts"
+DESCRIPTION="Script font content"/>
+			</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_028.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Non-latin fonts</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag TYPE="Typesetting"
+LABEL="NonLatinFont"
+DESCRIPTION="Chinese ideograms"/>""
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_029.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Masterhead</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="Masterhead"
+DESCRIPTION="L’AURORE – avril 1942"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_031.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks">Masterhead could also be described with a structural tag
+                (see section 3.).</div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Advertisements, announcements, public relation pages</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="Advertisements"
+DESCRIPTION="AVIS"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_033.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Small ads, obituaries, weather forecast, train tables,
+                etc.</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="SmallAds"
+DESCRIPTION="Petites annonces"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_035.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <h4 id="graphical_tags">Graphical tags, to be applied on <code>&lt;ComposedBlock></code> or
+                <code>&lt;Illustration></code> elements</h4>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Graphics, charts or graphs, linedrawings, maps, photographs,
+                engravings, etc.</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="Map"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="Engraving"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_037.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="Graphic"/>
+&lt;LayoutTag LABEL="Chart"/>
+&lt;LayoutTag LABEL="Linedrawing"/>
+&lt;LayoutTag LABEL="Photo"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_039.png" alt="" />
+                    </div>
+                </div>
+                <div class="usecase_remarks"></div>
+            </div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Chemical formulas (graphic)</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag TYPE="Formula"
+LABEL="ChemFormula"
+DESCRIPTION="Aspartame formula"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_040.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Musical notations</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="MusicalScore"
+DESCRIPTION="Maurice Ravel"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_042.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <h4 id="other_graphical_tags">Other graphical tags to be applied on
+                <code>&lt;ComposedBlock>, &lt;GraphicalElement></code> elements</h4>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Ornaments, tail pieces</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">no need </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_043.png" alt="" /></div>
+                    <div class="usecase_image">
+                        <img src="images/Image_044.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Horizontal separator lines between paragraphs</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="TransitionSep"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_047.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Horizontal separator lines between text block and
+                footnotes</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="FootnoteSep"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_048.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Stamps</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="Stamp"
+DESCRIPTION="Dépôt légal Vosges 1891"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_050.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Dropped initials</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="DropCap"
+DESCRIPTION="A"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_051.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <h4 id="misc">Misc, to be applied on any elements</h4>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Illegible contents</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="Illegible"
+DESCRIPTION="scan quality problem"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_053.png" alt="" />
+                        <p>On <code>&lt;TextBlock></code> or <code>&lt;TextLine></code>
+                            elements.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="Illegible"
+DESCRIPTION="illegible word, 
+may be ‘Scribe’"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_054.png" alt="" />
+                        <p>On <code>&lt;String></code> element.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Noise</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="Noise"
+DESCRIPTION="scan noise"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_056.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks">Noise regions: no real data, only artifacts on the document
+                or scanner noise.</div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Unknown content</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;LayoutTag LABEL="Unknown"
+DESCRIPTION="text?"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image"></div>
+                </div>
+            </div>
+            <div class="usecase_remarks">To be used if the region type cannot be ascertained.</div>
+        </div>
+        <h2>Structural tagging</h2>
+        <p>The ALTO format captures the layout and the full text of a page. One intention of OCRing
+            is full text retrieval. But full text retrieval may benefit from marking additional
+            labelling elements such as page headers (running titles), page numbers, signature marks,
+            etc. These are different type of structural elements than intellectual entities which
+            record the intellectual structure of a document (The intellectual structure is not
+            recorded in ALTO, but in a container format such as METS.)</p>
+        <p>If these elements are labelled, a full text search could either be restricted only to
+            these elements, or the elements could be excluded from a search. A running title that
+            appears on every page could e.g. manipulate the ranking of a resource or delivery
+            invalid hits. Other labelled information such as the page number could be used for
+            quality assurance purpose, document navigation, etc.</p>
+        <p>This structural tagging can be implemented in a mass digitisation workflow to extract
+            structural or functional features (TOC entries, headings, headers, footnotes, article
+            headings, etc.) or as an editing and correction facility for the improvement of already
+            digitised books. Apart from METS/ALTO, enhanced PDFs and ebooks can also be generated if
+            some structural information is available.</p>
+        <h3 id="xml_schema_3">XML schema</h3>
+        <p>ALTO tag element: <code>&lt;StructureTag></code></p>
+        <p>Tag attributes:</p>
+        <dl>
+            <dt><code>ID</code></dt>
+            <dd>Tag id</dd>
+            <dt><code>LABEL</code></dt>
+            <dd>Structural tag</dd>
+            <dt><code>TYPE</code> (optional)</dt>
+            <dd>Suppertype or category of the tag</dd>
+            <dt><code>DESCRIPTION</code> (optional)</dt>
+            <dd>Description of the tag, description of the content, or the content itself</dd>
+            <dt><code>XmlData</code> (optional)</dt>
+            <dd>Any XML encoded metadata helping to describe the tag or the vocabulary used to
+                describe the tag.</dd>
+            <dt><code>URI</code> (optional)</dt>
+            <dd>Any authority URI relevant for the tag element</dd>
+        </dl>
+        <h3 id="goode_practices_3">Good pratices, limitations</h3>
+        <p>Structural tagging in ALTO can be considered as awkward (compared to the classic and
+            recommanded METSALTO solution), as ALTO does not foresee the storing of any semantic
+            information. But it could be useful:</p>
+        <ul>
+            <li>If a METS container is not used in the digitization project.</li>
+            <li>If a simple and limited capturing of structural information is needed.</li>
+            <li>Besides, tagging in ALTO has some benefits: engineering simplicity (compared to a
+                METS-ALTO implementation), autonomy (content and structure are stored in a unique
+                file).</li>
+        </ul>
+        <h4 id="text_tags_4">Text tags, to be applied on <code>&lt;ComposedBlock>, &lt;TextBlock>,
+                &lt;TextLine></code> or <code>&lt;String></code> elements</h4>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Covers</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="Cover"/>
+</code></pre>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="cover">
+&lt;XmlData>
+&lt;Scheme>epub&lt;/Scheme>
+&lt;/XmlData>
+&lt;/RoleTag>
+</code></pre>
+                        <p>Description of the vocabulary used.</p>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_064.png" alt="" />
+                    </div>
+                    <p><a href="http://gallica.bnf.fr/ark:/12148/bpt6k6207567r/f1.planchecontact"
+                            >http://gallica.bnf.fr/ark:/12148/bpt6k6207567r/f1.planchecontact</a></p>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Title pages</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="TitlePage"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_066.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Frontmatter (foreword, prologue, notice to the reader,
+                warning, advertisements, copyright page, publisher catalogs, etc.)</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="Catalog"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+…
+&lt;StructureTag TYPE="Functional"
+LABEL="CopyrightPage"/>
+&lt;StructureTag TYPE="Functional"
+LABEL="Foreword"/>
+&lt;StructureTag TYPE="Functional"
+LABEL="Notice"/>
+…
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_068.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Tables of content</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="TOC"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_070.png" alt="" />
+                    </div>
+                    <p>Global tables of content</p>
+                </div>
+            </div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_072.png" alt="" />
+                    </div>
+                    <p>Internal tables of content (chapter beginnings, etc.)</p>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Body matter </div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="BodyMatter"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_074.png" alt="" />
+                        <p>Beginning of the main content</p>
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Backmatter (afterword, appendix, illustrations list, tables
+                list, conclusion, glossary, bilbiography, colophon, etc.) </div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="LOI"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="Appendix"/>
+&lt;StructureTag TYPE="Functional"
+LABEL="LOT"/>
+&lt;StructureTag TYPE="Functional"
+LABEL="Conclusion"/>
+&lt;StructureTag TYPE="Functional"
+LABEL="Glossary"/>
+&lt;StructureTag TYPE="Functional"
+LABEL="Bibliography"/>
+…
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_076.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Index </div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="Index"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_078.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Running titles </div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="RunningTitle"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_079.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Volumes, parts, chapters </div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="Part"
+DESCRIPTION="I"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="Chapter"
+DESCRIPTION="I"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_080.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Titles, subtitles </div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="FullTitle"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="Title1"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_082.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="FullTitle"/> 
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="Title1"
+DESCRIPTION="I"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="Title2"
+DESCRIPTION="I"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="Title2"
+DESCRIPTION="II"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_084.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Footnote references </div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+TYPE="FootnoteReference"
+DESCRIPTION="1"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_085.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Footnotes </div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="Footnote"
+DESCRIPTION="1"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_086.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">References to footnote </div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Reference"
+TYPE="ReferenceToFootnote"
+DESCRIPTION="1"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image"> </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Marginalias</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="Marginalia"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_088.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Figure captions</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="FigureCaption"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_089.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Figure references</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="FigureReference"
+DESCRIPTION="9"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_090.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">References to figure</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Reference"
+LABEL="ReferenceToFigure"
+DESCRIPTION="9"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image"></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Table captions</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="TableCaption"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_092.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Table references</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="TableReference"
+DESCRIPTION="1"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image"> </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">References to table</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Reference"
+LABEL="ReferenceToTable"
+DESCRIPTION="1"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image"></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Page numbers</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="PageNumber"
+DESCRIPTION="937"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_094.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Reference to page</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Reference"
+LABEL="ReferenceToPage"
+DESCRIPTION="8"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_095.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Bullets lists, numbered lists</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="UL"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="OL"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image"> </div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Masterhead, imprint</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="Masterhead"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_098.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Newspaper title</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="FullTitle"
+DESCRIPTION="THE WINCHESTER NEWS"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_099.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Issue number, date</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="Date"
+DESCRIPTION="October 31, 1910"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_100.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Section headings, rubrics, column titles, etc.</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="SectionHeading"
+DESCRIPTION="SOCIETY"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_102.png" alt="" /></div>
+                    <p><a
+                            href="http://chroniclingamerica.loc.gov/lccn/sn86069133/1910-10-31/ed-1/seq-3/"
+                            >http://chroniclingamerica.loc.gov/lccn/sn86069133/1910-10-31/ed-1/seq-3/</a></p>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Advertisements, announcements, public relation pages</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="SectionHeading"
+DESCRIPTION="Advertisements"
+/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_104.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Individual content item of advertisements, announcements,
+                public relation pages</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="Heading"
+DESCRIPTION="Advertisement"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_105.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Small ads, obituaries, weather forecast, train tables,
+                etc.</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="SectionHeading"
+DESCRIPTION="SmallAdds"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_108.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Article titles, subtitles</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="ArticleTitle"/>
+&lt;StructureTag TYPE="Structural"
+LABEL="ArticleSubTitle"/>
+</code></pre>
+                    </div>
+                    <p>or</p>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="Heading"/>
+&lt;StructureTag TYPE="Structural"
+LABEL="SubHeading"/>
+</code></pre>
+                    </div>
+                    <p>or</p>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Structural"
+LABEL="ArticleTitle1"/>
+&lt;StructureTag TYPE="Structural"
+LABEL="ArticleTitle2"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_107.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Location, spatial information, place name</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="Place"
+DESCRIPTION="CLAY CITY, Ky"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_109a.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks">Coverage note about a content</div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Date, dateline</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="Date"
+DESCRIPTION="Oct. 31."/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_109b.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks">Coverage note about a content</div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Article authors, copyright note, etc.</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="ArticleAuthor"
+DESCRIPTION="Léon Lafage"/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_111.png" alt="" /></div>
+                    <p><a href="http://gallica.bnf.fr/ark:/12148/bpt6k297360g/f1.image"
+                            >http://gallica.bnf.fr/ark:/12148/bpt6k297360g/f1.image</a></p>
+                </div>
+            </div>
+            <div class="usecase_remarks">Authors could also be tagged with a
+                    <code>&lt;RoleTag></code> (see section 5.).</div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Illustration</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;StructureTag TYPE="Functional"
+LABEL="Illustration"
+DESCRIPTION="John W. Langley">
+&lt;XmlData>
+&lt;-- bibliographic metadatas of the photography -->
+&lt;/XmlData>
+&lt;StructureTag/>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_112.png" alt="" /></div>
+                    <p><a
+                            href="http://chroniclingamerica.loc.gov/lccn/sn86069133/1910-10-31/ed-1/seq-6/"
+                            >http://chroniclingamerica.loc.gov/lccn/sn86069133/1910-10-31/ed-1/seq-6/</a></p>
+                </div>
+            </div>
+            <div class="usecase_remarks">If the intellectual value of an illustration is high, it
+                can be captured with a structural tag.</div>
+        </div>
+        <h2 id="named_entity_tagging">Named Entities tagging</h2>
+        <p>Named-entity recognition (NER) is a subtask of information extraction that seeks to
+            locate and classify atomic textual elements into predefined categories (names of
+            persons, organizations, locations, expressions of times, quantities, etc).</p>
+        <p>Representing the result of a NER processing in ALTO has several pros:</p>
+        <dl>
+            <dt>Simplicity</dt>
+            <dd>no need to use another format for NE storage, no need to make links between this
+                format and the ALTO block coordinates; no need to use a METS-ALTO approach.</dd>
+            <dt>Autonomy</dt>
+            <dd>contents and NE are stored in the same file.</dd>
+        </dl>
+        <h3 id="xml_schema_4">XML schema</h3>
+        <p>ALTO tag element: <code>&lt;NamedEntityTag></code></p>
+        <p>Tag attributes:</p>
+        <dl>
+            <dt><code>ID</code></dt>
+            <dd>Tag id</dd>
+            <dt><code>LABEL</code></dt>
+            <dd>Named entity category (Person, Organization, Location, etc.)</dd>
+            <dt><code>TYPE</code> (optional)</dt>
+            <dd>Suppertype or category of the named entity type</dd>
+            <dt><code>DESCRIPTION</code> (optional)</dt>
+            <dd>Named entity textual content</dd>
+            <dt>XmlData (optional)</dt>
+            <dd>Any XML encoded metadata helping to describe the tag or the vocabulary used to
+                describe the tag</dd>
+            <dt><code>URI</code> (optional)</dt>
+            <dd>Any authority URI relevant for the tag element: NE authority repositories,
+                gazetteers, etc</dd>
+        </dl>
+        <h3 id="good_practices_4">Good pratices, limitations</h3>
+        <ul>
+            <li>Multiple authorities can be assigned to a named entity (see example bellow).</li>
+            <li>Nested tags can be described (see example bellow).</li>
+            <li>Occurrences of the same NE can’t clearly be described if they are near one of the
+                other. The first two strings reference the “JS Bach” NE and the last three reference
+                the same “JS Bach” NE, but the mechanism can’t say where is the frontier.<br /> … JS
+                Bach, (Johann Sebastian Bach) … </li>
+        </ul>
+        <h4 id="text_tags_4">Text tags, to be applied on <code>&lt;ComposedBlock>, &lt;TextBlock>,
+                &lt;TextLine></code> or <code>&lt;String></code> elements</h4>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Locations</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;!—Simple tagging -->
+&lt;NamedEntityTag LABEL="Location"
+DESCRIPTION="Lexington"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;!— URI Authority -->
+&lt;NamedEntityTag LABEL ="Location"
+DESCRIPTION="Lexington"
+URI="http://www.geonames.org/4941935"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;! — Extra attributes -->
+&lt;NamedEntityTag LABEL ="Location"
+DESCRIPTION="Kentucky">
+&lt;XmlData>
+&lt;NEC>1.0&lt;/NEC> &lt;!-- NE confidence value -->
+&lt;Variants>Kenekuke Kentaki Kentákii
+Hahoodzo Kèntòki Kentórk Kentuki
+Kentukia Kentukio Kentukis Kentukki
+Kentukki Kéntukki Shitati Khén-thap-kî
+?e?t??? ??????? ????
+&lt;/Variants>
+&lt;/XmlData>
+&lt;/NamedEntityTag>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;!— Multiple Authorities -->
+&lt;NamedEntityTag ID="15a"
+LABEL="Location"
+DESCRIPTION="Louisville"
+URI="http://www.geonames.org/4299276"/>
+&lt;NamedEntityTag ID="15b"
+LABEL="Location"
+DESCRIPTION="Louisville"
+URI="mygeonames:louisville"/>
+…
+&lt;String CONTENT="Louisville" WC="1.0"
+TAGREFS="15a 15b">
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_124.png" alt="" /></div>
+                    <p><a
+                            href="http://chroniclingamerica.loc.gov/lccn/sn86069133/1910-10-31/ed-1/seq-1/"
+                            >http://chroniclingamerica.loc.gov/lccn/sn86069133/1910-10-31/ed-1/seq-1/</a></p>
+                    <p><a
+                            href="http://chroniclingamerica.loc.gov/lccn/sn86069133/1910-10-31/ed-1/seq-1/ocr.xml"
+                            >http://chroniclingamerica.loc.gov/lccn/sn86069133/1910-10-31/ed-1/seq-1/ocr.xml</a></p>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Persons</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;!—Simple tagging -->
+&lt;NamedEntityTag LABEL="Person"
+DESCRIPTION="Dr. Reynolds"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;!— URI Authority -->
+&lt;NamedEntityTag LABEL="Person"
+DESCRIPTION="Mr. Norris"
+URI="http://catalogue.bnf.fr/servlet/autorite?ID=11916925"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;!-- embedded authority description -->
+&lt;NamedEntityTag LABEL="Person"
+DESCRIPTION="James M Bigstaff">&lt;XmlData>
+&lt;MADS xmlns="http://www.loc.gov/mads/">
+&lt;authority>
+&lt;name type="personal" authority="naf">
+&lt;namePart>Bigstaff, James M&lt;/namePart>
+&lt;namePart type="date">1835-1882&lt;/namePart>
+&lt;/name>
+&lt;/authority>
+&lt;/MADS>&lt;/XmlData>&lt;/NamedEntityTag>
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_128.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Organizations</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;!—Simple tagging -->
+&lt;NamedEntityTag ID="O20"
+LABEL="Organization"
+DESCRIPTION="Central Kentucky Tobacco
+Warehouse Company"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;!— Nested tags -->
+&lt;NamedEntityTag ID="L11"
+LABEL="Location"
+DESCRIPTION="Kentucky"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+ALTO content:
+…
+&lt;String CONTENT="Central" 
+TAGREFS="O20"/>
+&lt;/TextLine>
+&lt;TextLine>
+&lt;String CONTENT="Kentucky" 
+TAGREFS="O20 L11"/>
+&lt;String CONTENT="Tobacco" 
+TAGREFS="O20">
+&lt;String CONTENT="Warehouse" 
+TAGREFS="O20"/>
+&lt;String CONTENT="Company" 
+TAGREFS="O20"/>
+…
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_130.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks">Nested tags are implemented with multiple tag refs.</div>
+        </div>
+        <h2 id="role_tagging">Role tagging</h2>
+        <p>Role tagging allows to describe the people involved in the content creation: author,
+            editor, etc. This can be done with an open vocabulary or a dedicated vocabulary, like
+            the MARC Code List for Relators.</p>
+        <h3 id="xml_schema_5">XML schema</h3>
+        <p>ALTO tag element: <code>&lt;RoleTag></code></p>
+        <p>Tag attributes:</p>
+        <dl>
+            <dt><code>ID</code></dt>
+            <dd>Tag id</dd>
+            <dt><code>LABEL</code></dt>
+            <dd>tag type or category</dd>
+            <dt><code>TYPE</code> (optional)</dt>
+            <dd>Suppertype or category of the type</dd>
+            <dt><code>DESCRIPTION</code> (optional)</dt>
+            <dd>Description of the tag, description of the tag content, or the content itself</dd>
+            <dt>XmlData (optional)</dt>
+            <dd>Any XML encoded metadata helping to describe the tag or the vocabulary used to
+                describe the tag.</dd>
+            <dt><code>URI</code> (optional)</dt>
+            <dd>Any authority URI relevant for the tag element.</dd>
+        </dl>
+        <h3 id="good_practices_5">Good pratices, limitations</h3>
+        <p>A specific name tagged with a Role tag can also be identify with a NE tag.</p>
+        <h4 id="text_tags_5">Text tags, to be applied on <code>&lt;ComposedBlock>, &lt;TextBlock>,
+                &lt;TextLine></code> or <code>&lt;String></code> elements</h4>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Title pages</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;RoleTag
+LABEL="Author"
+DESCRIPTION="book’s author"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;RoleTag
+LABEL="Illustrator"
+DESCRIPTION="drawings creator"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;RoleTag
+LABEL="Publisher"/>
+</code></pre>
+                    </div>
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;-- Description of the vocabulary used ->
+&lt;RoleTag LABEL="ill"
+DESCRIPTION="drawings creator">
+&lt;XmlData>
+&lt;Scheme>marc:relators&lt;/Scheme>
+&lt;/XmlData>&lt;/RoleTag> 
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_136.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <!-- -->
+        <div class="example">
+            <div class="usecase_title">Foreword, etc.</div>
+            <div class="example_part">
+                <div class="example_left">
+                    <div class="usecase_code">
+                        <pre><code>
+&lt;RoleTag LABEL="aui"
+DESCRIPTION="author of the introduction">
+&lt;XmlData>
+&lt;Scheme>marc:relators&lt;/Scheme>
+&lt;/XmlData>&lt;/RoleTag> 
+</code></pre>
+                    </div>
+                </div>
+                <div class="example_right">
+                    <div class="usecase_image">
+                        <img src="images/Image_138.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="usecase_remarks"></div>
+        </div>
+        <h2 id="other_tags">Other tags</h2>
+        <p>Any other kind of tags can be described.</p>
+        <h3 id="xml_schema_6">XML schema</h3>
+        <p>ALTO tag element: <code>&lt;OtherTag></code></p>
+        <p>Tag attributes:</p>
+        <dl>
+            <dt><code>ID</code></dt>
+            <dd>Tag id</dd>
+            <dt><code>LABEL</code></dt>
+            <dd>tag type or category</dd>
+            <dt><code>TYPE</code> (optional)</dt>
+            <dd>Suppertype or category of the type</dd>
+            <dt><code>DESCRIPTION</code> (optional)</dt>
+            <dd>Description of the tag, description of the tag content, or the content itself</dd>
+            <dt>XmlData (optional)</dt>
+            <dd>Any XML encoded metadata helping to describe the tag or the vocabulary used to
+                describe the tag.</dd>
+            <dt><code>URI</code> (optional)</dt>
+            <dd>Any authority URI relevant for the tag element.</dd>
+        </dl>
+        <h2 id="reference_documents">Reference documents</h2>
+        <ul>
+            <li>EPUB 3 Structural Semantics Vocabulary: <a
+                    href="http://www.idpf.org/epub/vocab/structure/"
+                    >http://www.idpf.org/epub/vocab/structure/</a></li>
+            <li>PAGE format: <a href="http://schema.primaresearch.org/PAGE"
+                    >http://schema.primaresearch.org/PAGE</a></li>
+            <li>MARC Code List for Relators: <a href="http://id.loc.gov/vocabulary/relators.html"
+                    >http://id.loc.gov/vocabulary/relators.html</a></li>
+            <li> Europeana Newspapers: <ul>
+                    <li>METS ALTO Profile (ENMAP), version 1.0, January 8th 2014</li>
+                    <li>Options for the representation of recognized named entities, version 0.1,
+                        December 12th, 2012</li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>
