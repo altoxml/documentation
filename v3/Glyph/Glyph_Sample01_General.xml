@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.loc.gov/standards/alto/ns-v3#"
+    xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v3# http://www.loc.gov/standards/alto/v3/alto-3-2.xsd"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <Layout>
+        <Page ID="P1" PHYSICAL_IMG_NR="1" HEIGHT="1469" WIDTH="1003" PRINTED_IMG_NR="1" PC="0.867">
+            <PrintSpace ID="P1_PS00001" HPOS="86" VPOS="131" WIDTH="1500" HEIGHT="1131">
+                <TextBlock ID="P1_TB00001" HPOS="200" VPOS="200" WIDTH="1000" HEIGHT="50">
+                    <TextLine ID="P1_TL00001" HPOS="230" VPOS="216" WIDTH="987" HEIGHT="31">
+                        <String ID="P1_ST00001" CONTENT="Marne" WC="0.99" HPOS="230" VPOS="223" WIDTH="50" HEIGHT="24">
+
+                            <!-- outlined different options for the character "M" -->
+                            <Glyph ID="P1_ST00001_G02" CONTENT="M" HPOS="244" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.8">
+                                <Variant CONTENT="H" VC="0.5"/>
+                                <Variant CONTENT="N" VC="0.1"/>
+                            </Glyph>
+                            
+                            <!-- outlined different options for the character "a" -->
+                            <Glyph ID="P1_ST00001_G02" CONTENT="a" HPOS="244" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.8">
+                                <Variant CONTENT="à" VC="0.5"/>
+                                <Variant CONTENT="â" VC="0.1"/>
+                                <Variant CONTENT="á" VC="0.1"/>
+                            </Glyph>
+                            
+                            <Glyph ID="P1_ST00001_G03" CONTENT="r" HPOS="253" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.9">
+                                <Variant CONTENT="i" VC="0.7"/>
+                                <Variant CONTENT="l" VC="0.4"/>
+                                <Variant CONTENT="n" VC="0.3"/>
+                            </Glyph>
+
+                            <!-- mutliple characters as replacement for one glyph possible -->
+                            <Glyph ID="P1_ST00001_G04" CONTENT="n" HPOS="262" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.7">
+                                <Variant CONTENT="r" VC="0.2"/>
+                                <Variant CONTENT="ii" VC="0.2"/>
+                            </Glyph>
+                            
+                            <Glyph ID="P1_ST00001_G05" CONTENT="e" HPOS="271" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.8">
+                                <Variant CONTENT="o" VC="0.4"/>
+                                <Variant CONTENT="a" VC="0.1"/>
+                            </Glyph>
+                        </String>
+                        <String ID="P1_ST00002" CONTENT="Home" WC="0.99" HPOS="230" VPOS="223" WIDTH="50" HEIGHT="24">
+                            
+                            <Glyph ID="P1_ST00002_G01" CONTENT="H" HPOS="230" VPOS="223" WIDTH="14" HEIGHT="24" GC="0.7">
+                                <Variant CONTENT="M" VC="0.2"/>
+                            </Glyph>
+                            
+                            <Glyph ID="P1_ST00002_G02" CONTENT="o" HPOS="244" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.8">
+                                <Variant CONTENT="a" VC="0.5"/>
+                                <Variant CONTENT="e" VC="0.2"/>
+                            </Glyph>
+                            
+                            <Glyph ID="P1_ST00003_G03" CONTENT="m" HPOS="253" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.9">
+                                <!-- multiple characters in one variant -->
+                                <Variant CONTENT="rn" VC="0.7"/>
+                                <Variant CONTENT="iii" VC="0.1"/>
+                            </Glyph>
+                            
+                            <Glyph ID="P1_ST00004_G04" CONTENT="e" HPOS="262" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.7">
+                                <Variant CONTENT="o" VC="0.6"/>
+                            </Glyph>
+                        </String>
+                    </TextLine>
+                </TextBlock>
+            </PrintSpace>
+        </Page>
+    </Layout>
+</alto>

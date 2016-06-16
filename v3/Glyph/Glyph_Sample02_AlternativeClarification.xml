@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.loc.gov/standards/alto/ns-v3#"
+    xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v3# http://www.loc.gov/standards/alto/v3/alto-3-2.xsd"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <Layout>
+        <Page ID="P1" PHYSICAL_IMG_NR="1" HEIGHT="1469" WIDTH="1003" PRINTED_IMG_NR="1" PC="0.867">
+            <PrintSpace ID="P1_PS00001" HPOS="86" VPOS="131" WIDTH="1500" HEIGHT="1131">
+                <TextBlock ID="P1_TB00001" HPOS="200" VPOS="200" WIDTH="1000" HEIGHT="50">
+                    <TextLine ID="P1_TL00001" HPOS="230" VPOS="216" WIDTH="987" HEIGHT="31">
+                        <String ID="P1_ST00001" CONTENT="Ælter" WC="0.99" HPOS="230" VPOS="223" WIDTH="50" HEIGHT="24" CC="56786">
+                            <!--
+                                Alternative can outline a variant of writing by new typing / spelling rules, typically manually done or by dictionary replacements.
+                                The above sample is an old composed character "Æ" of ancient time, which is replaced now by "Ä".
+                                As variant are ment alternatives of the real printed content which are options outlined by the text recognition process. 
+                                Similar sample: "Straße" <-> "Strasse". Such alternatives are not coming from printing recognition.
+                            -->
+                            <ALTERNATIVE PURPOSE="NEW-GERMAN">Älter</ALTERNATIVE>
+                            <Glyph ID="P1_ST00001_G01" CONTENT="Æ" HPOS="230" VPOS="223" WIDTH="14" HEIGHT="24" GC="7">
+                                <Variant CONTENT="" VC="6">AE</Variant>
+                                <Variant CONTENT="" VC="4">A</Variant>
+                                <Variant CONTENT="" VC="4">E</Variant>
+                            </Glyph>
+                            <Glyph ID="P1_ST00001_G02" CONTENT="l" HPOS="244" VPOS="223" WIDTH="9" HEIGHT="24" GC="8">
+                                <Variant CONTENT="" VC="5">1</Variant>
+                                <Variant CONTENT="" VC="1">i</Variant>
+                            </Glyph>
+                            <Glyph ID="P1_ST00001_G03" CONTENT="t" HPOS="253" VPOS="223" WIDTH="9" HEIGHT="24" GC="9">
+                                <Variant CONTENT="" VC="7">l</Variant>
+                                <Variant CONTENT="" VC="4">1</Variant>
+                                <Variant CONTENT="" VC="3">i</Variant>
+                            </Glyph>
+                            <Glyph ID="P1_ST00001_G04" CONTENT="e" HPOS="262" VPOS="223" WIDTH="9" HEIGHT="24" GC="7">
+                                <Variant CONTENT="" VC="6">a</Variant>
+                                <Variant CONTENT="" VC="4">o</Variant>
+                            </Glyph>
+                            <Glyph ID="P1_ST00001_G05" CONTENT="r" HPOS="271" VPOS="223" WIDTH="9" HEIGHT="24" GC="8">
+                                <Variant CONTENT="" VC="4">i</Variant>
+                                <Variant CONTENT="" VC="1">n</Variant>
+                            </Glyph>
+                        </String>
+                    </TextLine>
+                </TextBlock>
+            </PrintSpace>
+        </Page>
+    </Layout>
+</alto>
