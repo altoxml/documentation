@@ -12,17 +12,11 @@
                             <Shape>
                                 <Ellipse HPOS="723" VPOS="231" HLENGTH="493" VLENGTH="15"/>
                             </Shape>
-                            <Glyph ID="P1_ST00001_G01" CONTENT="1" VALID="s" HPOS="230" VPOS="223" WIDTH="10" HEIGHT="24" GC="0.7">
-                                <Shape>
-                                    <Polygon/>
-                                </Shape>
+                            <Glyph ID="P1_ST00001_G01" CONTENT="1" HPOS="230" VPOS="223" WIDTH="10" HEIGHT="24" GC="0.7">
                                 <Variant CONTENT="l" VC="0.2"/>
                                 <Variant CONTENT="i" VC="0.1"/>
                             </Glyph>
                             <Glyph ID="P1_ST00001_G02" CONTENT="2" HPOS="240" VPOS="223" WIDTH="10" HEIGHT="24" GC="0.9">
-                                <Shape>
-                                    <Polygon/>
-                                </Shape>
                                 <Variant CONTENT="s" VC="0.5"/>
                                 <Variant CONTENT="8" VC="0.1"/>
                             </Glyph>

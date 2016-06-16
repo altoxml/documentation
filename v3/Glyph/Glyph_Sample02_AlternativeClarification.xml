@@ -16,27 +16,27 @@
                                 Similar sample: "Straße" <-> "Strasse". Such alternatives are not coming from printing recognition.
                             -->
                             <ALTERNATIVE PURPOSE="NEW-GERMAN">Älter</ALTERNATIVE>
-                            <Glyph ID="P1_ST00001_G01" CONTENT="Æ" HPOS="230" VPOS="223" WIDTH="14" HEIGHT="24" GC="7">
-                                <Variant CONTENT="" VC="6">AE</Variant>
-                                <Variant CONTENT="" VC="4">A</Variant>
-                                <Variant CONTENT="" VC="4">E</Variant>
+                            <Glyph ID="P1_ST00001_G01" CONTENT="Æ" HPOS="230" VPOS="223" WIDTH="14" HEIGHT="24" GC="0.7">
+                                <Variant CONTENT="AE" VC="0.8"/>
+                                <Variant CONTENT="A" VC="0.4"/>
+                                <Variant CONTENT="E" VC="0.4"/>
                             </Glyph>
-                            <Glyph ID="P1_ST00001_G02" CONTENT="l" HPOS="244" VPOS="223" WIDTH="9" HEIGHT="24" GC="8">
-                                <Variant CONTENT="" VC="5">1</Variant>
-                                <Variant CONTENT="" VC="1">i</Variant>
+                            <Glyph ID="P1_ST00001_G02" CONTENT="l" HPOS="244" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.8">
+                                <Variant CONTENT="1" VC="0.7"/>
+                                <Variant CONTENT="i" VC="0.5"/>
                             </Glyph>
-                            <Glyph ID="P1_ST00001_G03" CONTENT="t" HPOS="253" VPOS="223" WIDTH="9" HEIGHT="24" GC="9">
-                                <Variant CONTENT="" VC="7">l</Variant>
-                                <Variant CONTENT="" VC="4">1</Variant>
-                                <Variant CONTENT="" VC="3">i</Variant>
+                            <Glyph ID="P1_ST00001_G03" CONTENT="t" HPOS="253" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.9">
+                                <Variant CONTENT="l" VC="0.7"/>
+                                <Variant CONTENT="1" VC="0.4"/>
+                                <Variant CONTENT="i" VC="0.3"/>
                             </Glyph>
-                            <Glyph ID="P1_ST00001_G04" CONTENT="e" HPOS="262" VPOS="223" WIDTH="9" HEIGHT="24" GC="7">
-                                <Variant CONTENT="" VC="6">a</Variant>
-                                <Variant CONTENT="" VC="4">o</Variant>
+                            <Glyph ID="P1_ST00001_G04" CONTENT="e" HPOS="262" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.7">
+                                <Variant CONTENT="a" VC="0.6"/>
+                                <Variant CONTENT="o" VC="0.4"/>
                             </Glyph>
-                            <Glyph ID="P1_ST00001_G05" CONTENT="r" HPOS="271" VPOS="223" WIDTH="9" HEIGHT="24" GC="8">
-                                <Variant CONTENT="" VC="4">i</Variant>
-                                <Variant CONTENT="" VC="1">n</Variant>
+                            <Glyph ID="P1_ST00001_G05" CONTENT="r" HPOS="271" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.8">
+                                <Variant CONTENT="i" VC="0.4"/>
+                                <Variant CONTENT="n" VC="0.1"/>
                             </Glyph>
                         </String>
                     </TextLine>

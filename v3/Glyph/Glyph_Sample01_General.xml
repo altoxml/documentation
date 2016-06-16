@@ -11,7 +11,7 @@
                         <String ID="P1_ST00001" CONTENT="Marne" WC="0.99" HPOS="230" VPOS="223" WIDTH="50" HEIGHT="24">
 
                             <!-- outlined different options for the character "M" -->
-                            <Glyph ID="P1_ST00001_G02" CONTENT="M" HPOS="244" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.8">
+                            <Glyph ID="P1_ST00001_G01" CONTENT="M" HPOS="244" VPOS="223" WIDTH="9" HEIGHT="24" GC="0.8">
                                 <Variant CONTENT="H" VC="0.5"/>
                                 <Variant CONTENT="N" VC="0.1"/>
                             </Glyph>
