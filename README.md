@@ -1,11 +1,11 @@
 ## [Documentation] (https://github.com/altoxml/documentation/wiki)
 
-This repository contains following documentation about the ALTO format.
+This repository contains the following documentation about the ALTO format:
 - generic documentation
 - version changes summary
 - samples for specific new features and use-cases
 
-Those parts depending on specific schema version are lcoated in according subfolder.
+The parts depending on a specific schema version are located in according subfolders.
 
 
-The latest ALTO schema and all former version you will find in the repository "[Schema](https://github.com/altoxml/schema)"
+The latest ALTO schema and all former versions can be found in the repository [Schema](https://github.com/altoxml/schema).
