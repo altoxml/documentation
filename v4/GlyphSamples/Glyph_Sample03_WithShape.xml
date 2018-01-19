@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+    xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-0.xsd"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <Layout>
+        <Page ID="P1" PHYSICAL_IMG_NR="1" HEIGHT="1469" WIDTH="1003" PRINTED_IMG_NR="1" PC="0.867">
+            <PrintSpace ID="P1_PS00001" HPOS="86" VPOS="131" WIDTH="1500" HEIGHT="1131">
+                <TextBlock ID="P1_TB00001" HPOS="200" VPOS="200" WIDTH="1000" HEIGHT="50">
+                    <TextLine ID="P1_TL00001" HPOS="230" VPOS="216" WIDTH="987" HEIGHT="31">
+                        <String ID="P1_ST00001" CONTENT="12" WC="0.99" CC="09">
+                            <Shape>
+                                <Ellipse HPOS="723" VPOS="231" HLENGTH="493" VLENGTH="15"/>
+                            </Shape>
+                            <Glyph ID="P1_ST00001_G01" CONTENT="1" HPOS="230" VPOS="223" WIDTH="10" HEIGHT="24" GC="0.7">
+                                <Variant CONTENT="l" VC="0.2"/>
+                                <Variant CONTENT="i" VC="0.1"/>
+                            </Glyph>
+                            <Glyph ID="P1_ST00001_G02" CONTENT="2" HPOS="240" VPOS="223" WIDTH="10" HEIGHT="24" GC="0.9">
+                                <Variant CONTENT="s" VC="0.5"/>
+                                <Variant CONTENT="8" VC="0.1"/>
+                            </Glyph>
+                        </String>
+                    </TextLine>
+                </TextBlock>
+            </PrintSpace>
+        </Page>
+    </Layout>
+</alto>
