@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.loc.gov/standards/alto/ns-v3#"
+    xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v3# http://www.loc.gov/standards/alto/v3/alto-3-2.xsd"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <Layout>
+        <Page ID="P1" PHYSICAL_IMG_NR="1" HEIGHT="1469" WIDTH="1003" PRINTED_IMG_NR="1" PC="0.867">
+            <PrintSpace ID="P1_PS00001" HPOS="86" VPOS="131" WIDTH="1500" HEIGHT="1131">
+                <TextBlock ID="P1_TB00001" HPOS="200" VPOS="200" WIDTH="1000" HEIGHT="50">
+                    <TextLine ID="P1_TL00001" HPOS="230" VPOS="216" WIDTH="987" HEIGHT="31">
+                        <String ID="P1_ST00001" CONTENT="స్తా" WC="0.99" HPOS="230" VPOS="223" WIDTH="50" HEIGHT="24">
+                            <Glyph ID="P1_ST00001_G01" CONTENT="స్తా" HPOS="230" VPOS="223" WIDTH="14" HEIGHT="24" GC="0.7">
+                                <Variant CONTENT="స్త" VC="0.5"/>
+                            </Glyph>
+                        </String>
+                    </TextLine>
+                </TextBlock>
+            </PrintSpace>
+        </Page>
+    </Layout>
+</alto>
